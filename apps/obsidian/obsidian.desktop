@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Obsidian
+Comment=Powerful and extensible knowledge
+Exec=/home/joalvarez/dev/applications/obsidian/Obsidian-1.1.16.AppImage
+Icon=/home/joalvarez/dev/applications/obsidian/obsidian-logo.png
+Terminal=false
+

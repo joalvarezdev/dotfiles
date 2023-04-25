@@ -1,5 +1,7 @@
 # Generals
 
+bindkey "^L" clear-screen
+
 alias so='source ~/.zshrc'
 
 alias logout='xfce4-session-logout --logout'
@@ -9,7 +11,7 @@ alias logout='xfce4-session-logout --logout'
 alias sshl='ssh-add -l'
 alias sshd='ssh-add -D'
 
-alias jopershub='~/dev/config/dotfiles/shortcuts/jopers.exp > /dev/null'
+alias jopershub='~/dev/config/dotfiles/shortcuts/jopers.exp &> /dev/null'
 
 # Connection
 
