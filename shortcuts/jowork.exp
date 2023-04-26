@@ -1,0 +1,11 @@
+#!/usr/bin/expect -f
+
+source ~/dev/config/dotfiles/ssh_keys/passphrase.exp
+
+spawn ssh-add /home/joalvarez/dev/infosis/joalvarez
+
+expect "Enter passphrase"
+
+send "$passphrase\r"
+
+expect eof

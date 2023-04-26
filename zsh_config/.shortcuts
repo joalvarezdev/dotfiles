@@ -12,6 +12,7 @@ alias sshl='ssh-add -l'
 alias sshd='ssh-add -D'
 
 alias jopershub='~/dev/config/dotfiles/shortcuts/jopers.exp &> /dev/null'
+alias jowork='~/dev/config/dotfiles/shortcuts/jowork.exp &> /dev/null'
 
 # Connection
 

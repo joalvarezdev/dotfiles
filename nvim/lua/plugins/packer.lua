@@ -7,7 +7,7 @@ end
 return require('packer').startup(function(use)
 	use 'wbthomason/packer.nvim'
 	use 'Shatur/neovim-ayu'
-	use 'tpope/vim-dadbod'
 	use 'kristijanhusak/vim-dadbod-ui'
+	use 'tpope/vim-dadbod'
 	use 'tpope/vim-dotenv'
 end)

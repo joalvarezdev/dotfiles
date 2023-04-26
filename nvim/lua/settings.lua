@@ -10,6 +10,15 @@ local opt = vim.opt
 
 g.mapleader = " "
 
+g.dbs_supported_types = {'mssql'}
+
+g.dbs_mssql_options = {
+         server = '10.0.0.91',
+	 database = 'master',
+	 user = 'Desarrollo.JAlvarez',
+	 password = 'Jalvarez01'
+ }
+
 -- UI
 
 opt.number = true
