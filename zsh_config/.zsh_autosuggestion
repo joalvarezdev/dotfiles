@@ -1,0 +1,3 @@
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=cyan,bg=none,bold,underline"
+
+bindkey '^n' autosuggest-accept

@@ -9,17 +9,16 @@ local opt = vim.opt
 -- General
 
 g.mapleader = " "
+vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
-g.dbs_supported_types = {'mssql'}
-
-g.dbs_mssql_options = {
-         server = '10.0.0.91',
-	 database = 'master',
-	 user = 'Desarrollo.JAlvarez',
-	 password = 'Jalvarez01'
- }
 
 -- UI
+
+opt.tabstop = 4
+opt.softtabstop = 4
+opt.shiftwidth = 4
+opt.expandtab = true
+
 
 opt.number = true
 opt.relativenumber = true

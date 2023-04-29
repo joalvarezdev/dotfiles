@@ -4,7 +4,6 @@
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
-
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -77,9 +76,12 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 source ~/dev/config/dotfiles/zsh_config/.tmux_init
 source ~/dev/config/dotfiles/zsh_config/.shortcuts
+source ~/dev/config/dotfiles/zsh_config/.infosis
 
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-
+source ~/dev/config/dotfiles/zsh_config/.zsh_autosuggestion
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"

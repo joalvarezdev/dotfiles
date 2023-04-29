@@ -1,0 +1,5 @@
+
+alias infs=~/dev/infosis
+alias home=~/dev/infosis/home
+
+alias cinf=~/dev/config/dotfiles/connection/conn.sh

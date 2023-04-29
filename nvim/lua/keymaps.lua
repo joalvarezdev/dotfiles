@@ -7,8 +7,10 @@ local cmd = vim.cmd
 map('i', 'jk', '<ESC>', {noremap = true})
 
 map('', '<leader>so', ':source ~/.config/nvim/init.lua<CR>', {noremap = true})
+
 map('', '<leader>w', ':w<CR>', {noremap = true})
 map('', '<leader>q', ':q<CR>', {noremap = true})
+map('', '<leader>e', ':q!<CR>', {noremap = true})
 
 map('', '<up>', '<nop>', {noremap = true})
 map('', '<down>', '<nop>', {noremap = true})
