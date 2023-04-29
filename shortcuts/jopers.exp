@@ -2,7 +2,7 @@
 
 source ~/dev/config/dotfiles/ssh_keys/passphrase.exp
 
-spawn ssh-add /home/joalvarez/dev/config/dotfiles/ssh_keys/joalvarezdev
+spawn ssh-add /home/joalvarez/dev/personal/joalvarez
 
 expect "Enter passphrase"
 
