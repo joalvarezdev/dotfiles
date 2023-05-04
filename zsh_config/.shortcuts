@@ -17,8 +17,8 @@ alias jowork='~/dev/config/dotfiles/shortcuts/jowork.exp &> /dev/null'
 # Connection
 
 alias conns='nmcli connection show'
-alias connu='nmcli connection up $1'
-alias connd='nmcli connection down $1'
+alias connu='nmcli connection up $1 &> /dev/null'
+alias connd='nmcli connection down $1 &> /dev/null'
 
 # Panel
 

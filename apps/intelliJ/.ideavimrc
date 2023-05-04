@@ -26,8 +26,6 @@ noremap <leader>em :action ExtractMethod<CR>
     """ SELECCIONAR PALABRA
 noremap <leader>sw :action EditorSelectWord<CR>
     """ MOVER LINEAS SELECCIONADAS
-noremap <A-C-k> :action MoveLineUp<CR>
-noremap <A-C-j> :action MoveLineDown<CR>
     """ DUPLICAR LINEAS SELECCIONADAS
 noremap <C-d> :action EditorDuplicateLines<CR>
     """ DAR FORMATO AL CODIGO
@@ -100,7 +98,8 @@ noremap <leader>at :action ActivateTerminalToolWindow<CR>
     """ MUESTRA TODOS LOS USOS METODO, CLASE, VARIABLE
 nmap <A-d> :action ShowUsages<CR>
     """ IR A LA IMPLEMENTACION CLASE, METODO, VARIABLE
-noremap <leader>gi mm`m:action GotoImplementation<CR>
+"""noremap <leader>gi mm`m:action GotoImplementation<CR>
+noremap <leader>gi :action GotoImplementation<CR>
     """ CAMBIOS REALIZADOS EN EL ARCHIVO (GIT)
 noremap <leader>; :action VcsShowNextChangeMarker<CR>
 noremap <leader>' :action VcsShowPrevChangeMarker<CR>
@@ -120,3 +119,10 @@ noremap <A-S-L> :action PrevSplitter<CR>
 """" TEST UNITARIOS
     """ 
 noremap <A-R> :action Coverage<CR>
+
+"""" ALGO
+noremap <C-m> :action MethodUp<CR>
+noremap <C-n> :action MethodDown<CR>
+
+noremap <C-b> :action EditorCodeBlockEnd<CR>
+noremap <C-v> :action EditorCodeBlockStart<CR>

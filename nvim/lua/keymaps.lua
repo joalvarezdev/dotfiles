@@ -22,3 +22,5 @@ map('i', '<C-l>', '<right>', default_opts)
 map('i', '<C-k>', '<up>', default_opts)
 map('i', '<C-j>', '<down>', default_opts)
 
+-- REST
+map("n", "<leader>rr", ":lua require('rest-nvim').run()<CR>", { noremap = true })

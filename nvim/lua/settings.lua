@@ -10,6 +10,7 @@ local opt = vim.opt
 
 g.mapleader = " "
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
+cmd("set splitright")
 
 
 -- UI

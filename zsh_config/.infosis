@@ -3,3 +3,8 @@ alias infs=~/dev/infosis
 alias home=~/dev/infosis/home
 
 alias cinf=~/dev/config/dotfiles/connection/conn.sh
+
+# Corremos un contenedor creado a partir de un archivo de configuración ubicado en el proyecto de api-server.
+alias server='docker-compose -f ~/dev/infosis/zwm-api-server/docker-compose.yml up -d'
+# Detenemos el contenedor que tenemos corriendo.
+alias sserver='docker stop server &> /dev/null && docker rm server &> /dev/null'
