@@ -1,6 +1,9 @@
 imap jk <Esc> 
 
-nmap <S-J> :tabprev
-""exmap tabprev obcommand pane-relief:go-prev
+
+exmap tabprev obcommand pane-relief:go-prev
+map <S-J> :tabprevious<CR>
+
+""noremap <S-J> :action tabprev<CR>
 ""exmap tabnext obcommand pane-relief:go-next
-nmap <S-K> :tabnext
+""noremap <S-K> :action tabnext<CR>
