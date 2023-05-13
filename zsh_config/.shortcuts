@@ -24,6 +24,7 @@ alias connd='nmcli connection down $1 &> /dev/null'
 
 alias pan='xfconf-query -c xfce4-panel -p /panels/panel-0/autohide-behavior -s $1'
 
-# Infosis
+# Personal
 
+alias myd=~/depp3/github.com/joalvarezdev
 
