@@ -81,9 +81,15 @@ source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/dev/config/dotfiles/zsh_config/.zsh_autosuggestion
 
+source ~/depp3/github.com/joalvarezdev/config_repository/server/.servers
+
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-
+# BITWARDEN
+if [[ -z "$BW_SESSION" ]]; then
+    export BW_SESSION=$(bw unlock $(secret-tool lookup bitwarden export_const) --raw)
+    bw get notes environments | source /dev/stdin && bw lock &> /dev/null
+fi
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

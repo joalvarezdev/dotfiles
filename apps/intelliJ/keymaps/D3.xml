@@ -147,6 +147,9 @@
   <action id="XDebugger.MuteBreakpoints">
     <keyboard-shortcut first-keystroke="ctrl alt b" />
   </action>
+  <action id="XmlGenerateToolsGroup">
+    <keyboard-shortcut first-keystroke="alt x" />
+  </action>
   <action id="editRunConfigurations">
     <keyboard-shortcut first-keystroke="ctrl alt d" />
   </action>

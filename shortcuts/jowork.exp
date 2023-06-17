@@ -1,8 +1,9 @@
 #!/usr/bin/expect -f
 
 source ~/dev/config/dotfiles/ssh_keys/passphrase.exp
+#source ${JOWORK}
 
-spawn ssh-add /home/joalvarez/dev/infosis/joalvarez
+spawn ssh-add /home/joalvarez/depp3/gitlab.infosisglobal.com/.ssh/joalvarez
 
 expect "Enter passphrase"
 

@@ -1,10 +1,10 @@
 
-alias infs=~/dev/infosis
-alias home=~/dev/infosis/home
+alias infs=~/depp3/gitlab.infosisglobal.com
+alias zh=~/depp3/gitlab.infosisglobal.com/app_configs/zeushome
 
 alias cinf=~/dev/config/dotfiles/connection/conn.sh
 
 # Corremos un contenedor creado a partir de un archivo de configuración ubicado en el proyecto de api-server.
-alias server='docker-compose -f ~/dev/infosis/zwm-api-server/docker-compose.yml up -d'
+alias server='docker compose -f ~/depp3/gitlab.infosisglobal.com/desarrollo/zwm-api-server/docker-compose.yml up -d &>/dev/null'
 # Detenemos el contenedor que tenemos corriendo.
-alias sserver='docker stop server &> /dev/null && docker rm server &> /dev/null'
+alias sserver='docker rm -f api-server &> /dev/null'
