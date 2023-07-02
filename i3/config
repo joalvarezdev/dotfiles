@@ -5,6 +5,8 @@ set $mod Mod4
 ########################
 #         INIT         #
 ########################
+set $shortcuts ~/.config/i3/shortcuts.sh
+
 exec_always sh ~/.config/polybar/launch.sh --forest
 
 exec --no-startup-id nitrogen --restore
@@ -26,7 +28,7 @@ gaps outer 3
 
 # Font Style
 #font pango:Ubuntu Mono 10
-font pango:NotoSansM NL Bold 12
+font pango:NotoSansM NL Bold 6
 
 new_window pixel 1
 for_window [class="^.*"] border pixel 1
@@ -38,35 +40,41 @@ for_window [class="^.*"] border pixel 1
 bindsym $mod+d exec rofi -no-config -no-lazy-grab -show drun -modi drun -theme ~/.config/polybar/forest/scripts/rofi/launcher.rasi
 bindsym $mod+c exec sh ~/.config/polybar/forest/scripts/powermenu.sh
 
-# kill focused window
+########## KILL FOCUSED WINDOW ##########
 bindsym $mod+q kill
 
-# change focus
+########## CHANGE FOCUS ##########
 bindsym $mod+h focus left
 bindsym $mod+j focus down
 bindsym $mod+k focus up
 bindsym $mod+l focus right
 
-# split in horizontal orientation
+########## SPLIT ##########
+
+########## HORIZONTAL ##########
 bindsym $mod+Shift+h split h
 
-# split in vertical orientation
+########## VERTICAL ##########
 bindsym $mod+Shift+v split v
 
-########################
-#        PROGRAMS      #
-########################
-
+########## PROGRAMS ##########
 bindsym $mod+o exec --no-startup-id ~/dev/applications/Discord/Discord move container to workspace $ws10; workspace $ws10
 # 
 bindsym $mod+i exec --no-startup-id google-chrome-stable & move container to workspace $ws1; workspace $ws1
-bindsym $mod+Ctrl+i workspace $ws1
-#bindsym $mod+s exec --no-startup-id spotify move container to workspace $ws9; workspace %ws9
+bindsym $mod+Shift+i workspace $ws1
+bindsym $mod+y exec --no-startup-id spotify move container to workspace $ws8; workspace $ws8
 bindsym $mod+p exec --no-startup-id ~/dev/applications/idea-IC-231.8109.175/bin/idea.sh && move container to workspace $ws9; workspace $ws9
 
 bindsym $mod+Return exec alacritty & move container to workspace $ws3; workspace $ws3 
 bindsym $mod+u exec --no-startup-id alacritty move container to workspace $ws3; workspace $ws3
 
+########## CONNECTIONS ##########
+bindsym $mod+Shift+e exec sh $shortcuts '1'
+bindsym $mod+Shift+w exec sh $shortcuts '2'
+
+########## SIGN IN/OUT WORK ##########
+bindsym $mod+Shift+f exec python /home/joalvarez/depp3/github.com/joalvarezdev/are_you_booking/main.py
+#bindsym $mod+Shift+f exec sh $shortcuts '3'
 
 ########################
 #       MONITORS       #
@@ -77,6 +85,8 @@ set $screen2 "HDMI-1"
 
 bindsym $mod+m exec xrandr --output $screen2 --mode 1360x768 --right-of $screen1
 bindsym $mod+Shift+m exec xrandr --output $screen2 --mode 1920x1080 --left-of $screen1
+
+exec_always xrandr --output $screen2 --mode 1360x768 --right-of $screen1
 
 
 ########################
@@ -196,7 +206,7 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+#bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
