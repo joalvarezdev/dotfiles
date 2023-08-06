@@ -1,28 +1,20 @@
 # Generals
 
-bindkey "^L" clear-screen
-
 alias so='source ~/.zshrc'
-
-alias logout='xfce4-session-logout --logout'
 
 # ssh_shortcuts
 
 alias sshl='ssh-add -l'
 alias sshd='ssh-add -D'
 
-alias jopershub='~/dev/config/dotfiles/shortcuts/jopers.exp &> /dev/null'
-alias jowork='~/dev/config/dotfiles/shortcuts/jowork.exp &> /dev/null'
+alias jopershub='$DOTFILES/shortcuts/jopers.exp &> /dev/null'
+alias jowork='$DOTFILES/shortcuts/jowork.exp &> /dev/null'
 
 # Connection
 
 alias conns='nmcli connection show'
 alias connu='nmcli connection up $1 &> /dev/null'
 alias connd='nmcli connection down $1 &> /dev/null'
-
-# Panel
-
-alias pan='xfconf-query -c xfce4-panel -p /panels/panel-0/autohide-behavior -s $1'
 
 # Personal
 
