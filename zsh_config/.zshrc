@@ -7,7 +7,12 @@ export ZSH="$HOME/.oh-my-zsh"
 
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
-plugins=(git)
+plugins=(
+  git
+  zsh-autosuggestions
+  fast-syntax-highlighting
+  oh-my-matrix
+)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -31,3 +36,17 @@ source /tmp/env_infs.txt
 source /tmp/env_dep.txt
 
 # *************************************************
+
+source $DOTFILES/zsh_config/generals.sh
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+if [[ ! -f /tmp/ssh.txt ]]; then
+  eval $(ssh-agent) &> /dev/null
+  echo "export SSH_AUTH_SOCK="$SSH_AUTH_SOCK > /tmp/ssh.txt
+fi
+
+source /tmp/ssh.txt
+

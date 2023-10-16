@@ -1,11 +1,9 @@
+#!/bin/bash
+#
 alias ls='exa --icons'
 alias la='exa --icons -a'
 
-alias yml='yamllint --config-file ~/.config/yamllint/.yamllint $1'
-
 source $DOTFILES/zsh_config/.shortcuts
-
 source $DOTFILES/zsh_config/.tmux_init
-
 source $DOTFILES/zsh_config/.infosis
-
+source $DOTFILES/zsh_config/.zsh_autosuggestion

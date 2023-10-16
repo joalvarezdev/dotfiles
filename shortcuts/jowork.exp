@@ -1,6 +1,6 @@
 #!/usr/bin/expect -f
 
-spawn ssh-add $env(SSH)/joalvarezinf
+spawn ssh-add $env(SSH)/work
 
 expect "Enter passphrase"
 

@@ -18,5 +18,5 @@ alias connd='nmcli connection down $1 &> /dev/null'
 
 # Personal
 
-alias myd=~/depp3/github.com/joalvarezdev
+alias dep=$MY_GH
 
