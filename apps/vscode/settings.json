@@ -1,0 +1,82 @@
+{
+  "editor.fontFamily": "'Fira Code', 'monospace', monospace, Noto Color Emoji",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "on",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": 700,
+  "editor.tokenColorCustomizations": {
+    "comments": "#FFF"
+  },
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#3a9dc7"
+  },
+  "editor.cursorStyle": "line-thin",
+  "editor.cursorBlinking": "expand",
+  "window.menuBarVisibility": "toggle",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  // VIM
+  "vim.useSystemClipboard": true,
+  "vim.leader": " ",
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<leader>", "w"],
+      "commands": ["workbench.action.files.save"]
+    },
+    {
+      "before": ["<leader>", "m", "d"],
+      "commands": ["markdown.showPreviewToSide"]
+    },
+    {
+      "before": ["<leader>", "m", "p"],
+      "commands": ["extension.markdown-pdf.pdf"]
+    },
+    {
+      "before": ["<leader>", "g", "i"],
+      "commands": ["editor.action.revealDefinition"]
+    },
+    {
+      "before": ["<leader>", "r"],
+      "commands": ["rest-client.request"]
+    }
+  ],
+  //
+  "[markdown]": {
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "on"
+    }
+  },
+  "explorer.confirmDelete": false,
+  //
+  "errorLens.fontFamily": "Fira Code",
+  "errorLens.fontStyleItalic": true,
+  "errorLens.fontWeight": "700",
+  "errorLens.fontSize": "10",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "fluent-icons",
+  "rest-client.enableTelemetry": false,
+  "rest-client.fontFamily": "Fira Code",
+  "rest-client.fontWeight": "bold",
+  "rest-client.requestNameAsResponseTabTitle": true,
+  "markdown.marp.enableHtml": true,
+  "python.autoComplete.extraPaths": [
+    "/home/joalvarez/.vscode-oss/extensions/continue.continue-0.6.17-linux-x64",
+    "/home/joalvarez/.vscode-oss/extensions/continue.continue-0.8.0-linux-x64"
+  ],
+  "workbench.colorTheme": "Horizon Bold",
+
+  "python.venvFolders": ["venv"]
+}

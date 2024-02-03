@@ -12,6 +12,7 @@ plugins=(
   zsh-autosuggestions
   fast-syntax-highlighting
   oh-my-matrix
+  poetry
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -50,3 +51,4 @@ fi
 
 source /tmp/ssh.txt
 
+export PATH=/home/joalvarez/.cache/pypoetry/virtualenvs/sign-up-quick--ev9ptuw-py3.11/bin:$PATH

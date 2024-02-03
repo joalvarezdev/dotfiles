@@ -1,0 +1,158 @@
+// Place your key bindings in this file to override the defaults
+[
+  // CTRL
+  {
+    "key": "ctrl+j",
+    "command": "workbench.action.previousEditor"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "workbench.action.nextEditor"
+  },
+  {
+    "key": "alt+1",
+    "command": "-workbench.action.openEditorAtIndex1"
+  },
+  {
+    "key": "ctrl+s",
+    "command": "mysql.database.add"
+  },
+
+  // ALT
+  {
+    "key": "alt+e",
+    "command": "workbench.action.closeActiveEditor"
+  },
+  {
+    "key": "alt+j",
+    "command": "selectNextSuggestion"
+  },
+  {
+    "key": "alt+k",
+    "command": "selectPrevSuggestion"
+  },
+  {
+    "key": "alt+p",
+    "command": "explorer.newFolder"
+  },
+  {
+    "key": "alt+f",
+    "command": "explorer.newFile"
+  },
+  {
+    "key": "alt+d",
+    "command": "deleteFile",
+    "when": "filesExplorerFocus"
+  },
+  {
+    "key": "alt+[",
+    "command": "workbench.action.closeOtherEditors"
+  },
+  {
+    "key": "alt+]",
+    "command": "workbench.action.closeAllGroups"
+  },
+  {
+    "key": "alt+h",
+    "command": "editor.action.showHover"
+  },
+  {
+    "key": "alt+a",
+    "command": "mysql.connection.add"
+  },
+
+  // Explorer and Editor
+  {
+    "key": "alt+1",
+    "command": "workbench.files.action.focusFilesExplorer"
+  },
+  {
+    "key": "alt+1",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "filesExplorerFocus"
+  },
+  {
+    "key": "ctrl+alt+1",
+    "command": "workbench.action.focusActiveEditorGroup"
+  },
+  // Terminal and Editor
+  {
+    "key": "alt+0",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "alt+0",
+    "command": "workbench.action.terminal.focus",
+    "when": "!terminalFocus"
+  },
+  //
+  {
+    "key": "alt+2",
+    "command": "workbench.view.extension.github-cweijan-mysql"
+  },
+  {
+    "key": "alt+3",
+    "command": "continue.continueGUIView.focus"
+  },
+  {
+    "key": "alt+q",
+    "command": "workbench.action.closeSidebar"
+  },
+  {
+    "key": "alt+j",
+    "command": "list.focusDown",
+    "when": "filesExplorerFocus"
+  },
+  {
+    "key": "alt+k",
+    "command": "list.focusUp",
+    "when": "filesExplorerFocus"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "workbench.action.quickOpenNavigateNext",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "workbench.action.quickOpenNavigatePrevious",
+    "when": "inQuickOpen"
+  },
+
+  // CTRL + ALT
+  {
+    "key": "ctrl+alt+s",
+    "command": "workbench.action.openSettingsJson"
+  },
+  {
+    "key": "ctrl+alt+j",
+    "command": "workbench.action.openGlobalKeybindingsFile"
+  },
+  {
+    "key": "ctrl+alt+k",
+    "command": "workbench.action.openGlobalKeybindings"
+  },
+  {
+    "key": "ctrl+alt+0",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "ctrl+alt+o",
+    "command": "workbench.action.files.openFolder"
+  },
+
+  // Space
+  {
+    "key": "shift+c",
+    "commands": "rest-client.copy-response-body"
+  },
+  {
+    "key": "alt+3",
+    "command": "-workbench.action.openEditorAtIndex3"
+  },
+  {
+    "key": "alt+0",
+    "command": "-workbench.action.lastEditorInGroup"
+  }
+]

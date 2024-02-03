@@ -1,5 +1,5 @@
 #!/bin/bash
 
 if [[ -z "$TMUX" ]]; then
-	tmux attach-session -t depp3 || tmux new-session -s depp3
+	tmux attach-session -t JoAlvarez || tmux new-session -s JoAlvarez
 fi

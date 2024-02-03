@@ -3,6 +3,9 @@
   <action id="ActivateCoverageToolWindow">
     <keyboard-shortcut first-keystroke="ctrl alt 2" />
   </action>
+  <action id="ActivateDatabaseToolWindow">
+    <keyboard-shortcut first-keystroke="alt 2" />
+  </action>
   <action id="ActivateDebugToolWindow">
     <keyboard-shortcut first-keystroke="alt 9" />
   </action>
@@ -26,9 +29,13 @@
   </action>
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="shift alt t" />
+    <keyboard-shortcut first-keystroke="ctrl alt 0" />
   </action>
   <action id="ActivateVersionControlToolWindow" />
   <action id="Android.Designer.AutoArrange" />
+  <action id="Annotate">
+    <keyboard-shortcut first-keystroke="ctrl alt g" />
+  </action>
   <action id="ChangesView.ToggleCommitUi" />
   <action id="CheckinProject" />
   <action id="CloseAllEditors">
@@ -47,6 +54,7 @@
   <action id="ConsoleView.ShowAsJsonAction">
     <keyboard-shortcut first-keystroke="shift s" />
   </action>
+  <action id="DatabaseView.SqlGenerator" />
   <action id="Diff.ShowDiff" />
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
@@ -73,13 +81,13 @@
   </action>
   <action id="Generate">
     <keyboard-shortcut first-keystroke="ctrl g" />
-    <keyboard-shortcut first-keystroke="ctrl alt g" />
   </action>
   <action id="GenerateTestMethod">
     <keyboard-shortcut first-keystroke="alt g" />
   </action>
   <action id="Git.Commit.And.Push.Executor" />
   <action id="Git.Commit.Stage" />
+  <action id="GotoClass" />
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="control button1" />
   </action>
@@ -90,6 +98,9 @@
   <action id="GotoRow" />
   <action id="GotoTest" />
   <action id="GuiDesigner.Duplicate" />
+  <action id="HTTPClient.RunAll">
+    <keyboard-shortcut first-keystroke="alt r" />
+  </action>
   <action id="Hg.Commit.And.Push.Executor" />
   <action id="Hotswap">
     <keyboard-shortcut first-keystroke="shift alt h" />
@@ -149,6 +160,11 @@
   </action>
   <action id="XmlGenerateToolsGroup">
     <keyboard-shortcut first-keystroke="alt x" />
+  </action>
+  <action id="copilot.disposeInlays" />
+  <action id="copilot.requestCompletions">
+    <keyboard-shortcut first-keystroke="alt back_slash" />
+    <keyboard-shortcut first-keystroke="alt semicolon" />
   </action>
   <action id="editRunConfigurations">
     <keyboard-shortcut first-keystroke="ctrl alt d" />

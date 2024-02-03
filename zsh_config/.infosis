@@ -5,3 +5,5 @@ alias zh=$INF/application_props
 alias server='docker compose -f $INF/desarrollo/zwm-api-server/docker-compose.yml up -d &>/dev/null'
 # Detenemos el contenedor que tenemos corriendo.
 alias sserver='docker rm -f api-server &> /dev/null'
+
+alias home='$INF/application_props'

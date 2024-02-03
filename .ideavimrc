@@ -115,11 +115,13 @@ noremap <A-S-L> :action PrevSplitter<CR>
 
 """" TEST UNITARIOS
     """ 
-noremap <A-R> :action Coverage<CR>
+""""
 
-"""" ALGO
 noremap <C-m> :action MethodUp<CR>
 noremap <C-n> :action MethodDown<CR>
 
 noremap <C-b> :action EditorCodeBlockEnd<CR>
 noremap <C-v> :action EditorCodeBlockStart<CR>
+
+noremap <C-k> :action NextTab<CR>
+noremap <C-j> :action PreviousTab<CR>
