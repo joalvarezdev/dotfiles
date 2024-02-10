@@ -1,4 +1,8 @@
 <keymap version="1" name="D3" parent="Default for GNOME">
+  <action id="$Delete">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
   <action id="ActivateBookmarksToolWindow" />
   <action id="ActivateCoverageToolWindow">
     <keyboard-shortcut first-keystroke="ctrl alt 2" />
@@ -36,8 +40,25 @@
   <action id="Annotate">
     <keyboard-shortcut first-keystroke="ctrl alt g" />
   </action>
+  <action id="Arrangement.Alias.Rule.Remove">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
+  <action id="Arrangement.Rule.Remove">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
+  <action id="BookmarksView.Delete">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
   <action id="ChangesView.ToggleCommitUi" />
   <action id="CheckinProject" />
+  <action id="ChooseDebugConfiguration">
+    <keyboard-shortcut first-keystroke="shift alt f9" />
+    <keyboard-shortcut first-keystroke="shift alt d" />
+  </action>
+  <action id="ChooseRunConfiguration">
+    <keyboard-shortcut first-keystroke="shift alt f10" />
+    <keyboard-shortcut first-keystroke="shift alt r" />
+  </action>
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="alt close_bracket" />
   </action>
@@ -55,7 +76,26 @@
     <keyboard-shortcut first-keystroke="shift s" />
   </action>
   <action id="DatabaseView.SqlGenerator" />
+  <action id="Debugger.RemoveArrayFilter">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
+  <action id="Debugger.RemoveCustomField">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
+  <action id="DeleteRecentFiles">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
+  <action id="Diagram.DeleteSelection">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
   <action id="Diff.ShowDiff" />
+  <action id="DomCollectionControl.Remove">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
+  <action id="EditorDelete">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
     <keyboard-shortcut first-keystroke="alt j" />
@@ -75,6 +115,12 @@
   </action>
   <action id="EmmetPreviousEditPoint" />
   <action id="ExportToTextFile" />
+  <action id="ExternalSystem.DetachProject">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
+  <action id="FileChooser.Delete">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
   <action id="FileChooser.GotoDesktop" />
   <action id="FindNext">
     <keyboard-shortcut first-keystroke="f3" />
@@ -87,6 +133,9 @@
   </action>
   <action id="Git.Commit.And.Push.Executor" />
   <action id="Git.Commit.Stage" />
+  <action id="Git.Stash.Drop">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
   <action id="GotoClass" />
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="control button1" />
@@ -97,6 +146,15 @@
   <action id="GotoLine" />
   <action id="GotoRow" />
   <action id="GotoTest" />
+  <action id="Graph.Delete">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
+  <action id="GuiDesigner.DeleteComponent">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
+  <action id="GuiDesigner.DeleteGroup">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
   <action id="GuiDesigner.Duplicate" />
   <action id="HTTPClient.RunAll">
     <keyboard-shortcut first-keystroke="alt r" />
@@ -125,10 +183,14 @@
   <action id="QuickImplementations" />
   <action id="ReformatCode" />
   <action id="ReplaceInPath" />
+  <action id="RerunTests" />
   <action id="RestartIde">
     <keyboard-shortcut first-keystroke="shift ctrl r" />
   </action>
   <action id="RunDashboard.CopyConfiguration" />
+  <action id="RunDashboard.UngroupConfigurations">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="alt s" />
   </action>
@@ -151,12 +213,24 @@
   <action id="TypeHierarchy" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
   <action id="UsageGrouping.DirectoryStructure" />
+  <action id="UsageView.Exclude">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
   <action id="Vcs.Log.FocusTextFilter" />
+  <action id="Vcs.Shelf.Drop">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
   <action id="Vcs.ToggleAmendCommitMode" />
   <action id="Vcs.UpdateProject" />
+  <action id="WelcomeScreen.RemoveSelected">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
   <action id="XDebugger.CopyWatch" />
   <action id="XDebugger.MuteBreakpoints">
     <keyboard-shortcut first-keystroke="ctrl alt b" />
+  </action>
+  <action id="XDebugger.RemoveWatch">
+    <keyboard-shortcut first-keystroke="delete" />
   </action>
   <action id="XmlGenerateToolsGroup">
     <keyboard-shortcut first-keystroke="alt x" />
@@ -169,6 +243,10 @@
   <action id="editRunConfigurations">
     <keyboard-shortcut first-keystroke="ctrl alt d" />
   </action>
+  <action id="hg4idea.QDelete">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
+  <action id="hg4idea.QFold" />
   <action id="performancePlugin.ShowMemoryDialogAction">
     <keyboard-shortcut first-keystroke="ctrl alt k" />
   </action>
