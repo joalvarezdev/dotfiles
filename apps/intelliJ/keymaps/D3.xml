@@ -4,6 +4,9 @@
     <keyboard-shortcut first-keystroke="alt d" />
   </action>
   <action id="ActivateBookmarksToolWindow" />
+  <action id="ActivateCodeiumChatToolWindow">
+    <keyboard-shortcut first-keystroke="alt 3" />
+  </action>
   <action id="ActivateCoverageToolWindow">
     <keyboard-shortcut first-keystroke="ctrl alt 2" />
   </action>
@@ -14,6 +17,9 @@
     <keyboard-shortcut first-keystroke="alt 9" />
   </action>
   <action id="ActivateFindToolWindow" />
+  <action id="ActivateGitHubMarkdownEmojisToolWindow">
+    <keyboard-shortcut first-keystroke="alt 5" />
+  </action>
   <action id="ActivateMavenToolWindow">
     <keyboard-shortcut first-keystroke="alt 4" />
   </action>
@@ -27,9 +33,6 @@
   <action id="ActivateRunToolWindow" />
   <action id="ActivateSonarLintToolWindow">
     <keyboard-shortcut first-keystroke="alt 2" />
-  </action>
-  <action id="ActivateTODOToolWindow">
-    <keyboard-shortcut first-keystroke="alt 3" />
   </action>
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="shift alt t" />
@@ -63,11 +66,9 @@
     <keyboard-shortcut first-keystroke="alt close_bracket" />
   </action>
   <action id="CloseAllEditorsButActive">
-    <keyboard-shortcut first-keystroke="shift alt open_bracket" />
-  </action>
-  <action id="CloseContent">
     <keyboard-shortcut first-keystroke="alt open_bracket" />
   </action>
+  <action id="CloseContent" />
   <action id="CloseProject">
     <keyboard-shortcut first-keystroke="alt c" />
   </action>
@@ -163,6 +164,7 @@
   <action id="Hotswap">
     <keyboard-shortcut first-keystroke="shift alt h" />
   </action>
+  <action id="Images.Thumbnails.Hide" />
   <action id="InsertLiveTemplate" />
   <action id="Kotlin.RunScratch" />
   <action id="Maven.Reimport">
@@ -200,6 +202,7 @@
     <keyboard-shortcut first-keystroke="ctrl alt w" />
   </action>
   <action id="Terminal.ClearBuffer" />
+  <action id="Terminal.CloseTab" />
   <action id="ToggleFullScreen">
     <keyboard-shortcut first-keystroke="alt e" />
   </action>

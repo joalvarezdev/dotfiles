@@ -1,5 +1,7 @@
 let mapleader = " "
 
+set clipboard=unnamedplus
+
 imap jk <Esc>
 
 """" GUARDAR ARCHIVO

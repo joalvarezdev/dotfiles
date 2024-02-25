@@ -13,6 +13,7 @@ plugins=(
   fast-syntax-highlighting
   oh-my-matrix
   poetry
+  zsh-docker-aliases
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -52,3 +53,7 @@ fi
 source /tmp/ssh.txt
 
 export PATH=/home/joalvarez/.cache/pypoetry/virtualenvs/sign-up-quick--ev9ptuw-py3.11/bin:$PATH
+
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)
