@@ -57,3 +57,5 @@ export PATH=/home/joalvarez/.cache/pypoetry/virtualenvs/sign-up-quick--ev9ptuw-p
 
 # Load Angular CLI autocompletion.
 source <(ng completion script)
+
+source ~/.oh-my-zsh/plugins/emoji-in-the-shell/emoji-in-the-shell.zsh

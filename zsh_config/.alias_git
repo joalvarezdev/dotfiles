@@ -1,0 +1,1 @@
+alias gbd='$DOTFILES/zsh_config/scripts/delete_branchs.sh &> /dev/null'
