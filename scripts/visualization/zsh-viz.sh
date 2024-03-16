@@ -12,7 +12,7 @@ dot_zsh="~/dotfiles/zsh_config/.zshrc"
 path_final="~/.zshrc"
 
 if [ ! -L "$path_final" ]; then
-	ln -s "$dot_zsh" "$path_final"
+	ln -s "~/dotfiles/zsh_config/.zshrc" "~/.zshrc"
 fi
 
 if [ ! -d "$ZSH_CUSTOM/themes/powerlevel10k"]; then
