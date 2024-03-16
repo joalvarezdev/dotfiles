@@ -18,6 +18,7 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
+
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
@@ -40,6 +41,7 @@ source /tmp/env_dep.txt
 # *************************************************
 
 source $DOTFILES/zsh_config/generals.sh
+source $DOTFILES/zsh_config/.cli_tools
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
@@ -52,10 +54,8 @@ fi
 
 source /tmp/ssh.txt
 
-export PATH=/home/joalvarez/.cache/pypoetry/virtualenvs/sign-up-quick--ev9ptuw-py3.11/bin:$PATH
-
-
 # Load Angular CLI autocompletion.
 source <(ng completion script)
 
 source ~/.oh-my-zsh/plugins/emoji-in-the-shell/emoji-in-the-shell.zsh
+

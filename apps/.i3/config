@@ -17,6 +17,8 @@ set $screen1 "eDP-1"
 set $screen2 "HDMI-1"
 
 # bindsym $mod+a exec xrandr --output $screen2 --mode 1360x768 --right-of $screen1
+#exec --no-startup-id volumeicon
+exec xrandr --output $screen1 --mode 1600x900
 bindsym $mod+a exec sh $HOME/.i3/home_monitor.sh
 bindsym $mod+Shift+a exec xrandr --output $screen2 --mode 1920x1080 --left-of $screen1
 
