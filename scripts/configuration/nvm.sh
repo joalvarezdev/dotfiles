@@ -6,4 +6,8 @@ fi
 
 source ~/.bashrc
 
-nvm install v18.18.2
+version="v18.18.2"
+
+if ! node -v | grep -q "$version"; then
+	nvm install v18.18.2
+fi
