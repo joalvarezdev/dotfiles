@@ -6,8 +6,10 @@ CONFIGURATION = $(SCRIPT_DIR)/configuration
 # EXECUTABLE COMMANDS
 GHQ = $(CONFIGURATION)/ghq.sh
 ALACRITTY = $(CONFIGURATION)/alacritty.sh
+NVM = $(CONFIGURATION)/nvm.sh
 
 
 init:
 	$(GHQ)
 	$(ALACRITTY)
+	$(NVM)
