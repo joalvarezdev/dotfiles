@@ -8,11 +8,11 @@ if [ ! -d "$HOME/.oh-my-zsh" ]; then
 	sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 fi
 
-original="~/dotfiles/zsh_config/.zshrc"
-enlace="~/.zshrc"
+dot_zsh="~/dotfiles/zsh_config/.zshrc"
+path_final="~/.zshrc"
 
-if [ ! -L "$enlace" ]; then
-	ln -s "$original" "$enlace"
+if [ ! -L "$path_final" ]; then
+	ln -s "$dot_zsh" "$path_final"
 fi
 
 if [ ! -d "$ZSH_CUSTOM/themes/powerlevel10k"]; then
