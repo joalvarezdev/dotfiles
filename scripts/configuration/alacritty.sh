@@ -17,7 +17,17 @@ sudo pacman -S cmake freetype2 fontconfig pkg-config make libxcb libxkbcommon py
 
 cargo build --release
 
+infocmp alacritty
+
 sudo cp target/release/alacritty /usr/local/bin
 sudo cp extra/logo/alacritty-term.svg /usr/share/pixmaps/Alacritty.svg
 sudo desktop-file-install extra/linux/Alacritty.desktop
 sudo update-desktop-database
+
+## CREATE LN
+original="~/dotfiles/apps/alacritty/.alacritty.toml"
+enlace="~/.alacritty.toml"
+
+if [ ! -L "$enlace" ]; then
+	ln -s ~/dotfiles/apps/alacritty/.alacritty.toml ~/.alacritty.toml
+fi
