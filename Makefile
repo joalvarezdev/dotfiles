@@ -7,9 +7,11 @@ CONFIGURATION = $(SCRIPT_DIR)/configuration
 GHQ = $(CONFIGURATION)/ghq.sh
 ALACRITTY = $(CONFIGURATION)/alacritty.sh
 NVM = $(CONFIGURATION)/nvm.sh
+ZSH = $(CONFIGURATION)/zsh.sh
 
 
 init:
 	$(GHQ)
 	$(ALACRITTY)
 	$(NVM)
+	$(ZSH)
