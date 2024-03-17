@@ -4,6 +4,7 @@ alias ls='exa --icons'
 alias la='exa --icons -a'
 alias lsa='exa --icons -la'
 
+source $DOTFILES/scripts/bw/bw.sh
 source $DOTFILES/zsh_config/.shortcuts
 source $DOTFILES/zsh_config/.tmux_init
 source $DOTFILES/zsh_config/.infosis

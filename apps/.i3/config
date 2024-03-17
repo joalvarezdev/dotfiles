@@ -9,28 +9,23 @@ set $mod Mod4
 default_border pixel 1
 default_floating_border normal
 
+###################################
+#          SHORTCUTS SCRIPTS      #
+###################################
+
+bindsym $mod+a exec sh ~/ghq/github.com/joalvarezdev/dotfiles/shortcuts/scripts/home_monitor.sh
+bindsym $mod+Shift+s exec sh ~/ghq/github.com/joalvarezdev/dotfiles/shortcuts/scripts/flameshot.sh
+bindsym $mod+Shift+c exec sh ~/ghq/github.com/joalvarezdev/dotfiles/shortcuts/scripts/wifi_toggle.sh
+bindsym $mod+c exec sh ~/ghq/github.com/joalvarezdev/dotfiles/shortcuts/scripts/work_toggle.sh
 
 ###################################
 #      MONITOR SHORTCUTS          #
 ###################################
 set $screen1 "eDP-1"
+
 set $screen2 "HDMI-1"
-
-# bindsym $mod+a exec xrandr --output $screen2 --mode 1360x768 --right-of $screen1
-#exec --no-startup-id volumeicon
 exec xrandr --output $screen1 --mode 1600x900
-bindsym $mod+a exec sh $HOME/.i3/home_monitor.sh
 bindsym $mod+Shift+a exec xrandr --output $screen2 --mode 1920x1080 --left-of $screen1
-
-###################################
-
-bindsym $mod+Ctrl+s exec sh $HOME/.i3/flameshot.sh
-
-###################################
-#      CONNECTIONS MANAGER        #
-###################################
-bindsym $mod+Shift+c exec sh $HOME/.i3/wifi_toggle.sh
-bindsym $mod+c exec sh $HOME/.i3/work_toggle.sh
 
 ###################################
 
@@ -98,7 +93,8 @@ bindsym $mod+Shift+q kill
 
 # start program launcher
 #bindsym $mod+d exec --no-startup-id dmenu_recency
-bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
+#bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
+bindsym $mod+d exec --no-startup-id rofi -show drun
 
 # launch categorized menu
 bindsym $mod+z exec --no-startup-id morc_menu
@@ -188,9 +184,6 @@ bindsym $mod+Shift+space floating toggle
 #x-scheme-handler/chrome=userapp-Pale Moon.desktop
 # change focus between tiling / floating windows
 bindsym $mod+space focus mode_toggle
-
-# toggle sticky
-bindsym $mod+Shift+s sticky toggle
 
 # focus the parent container
 #bindsym $mod+a focus parent

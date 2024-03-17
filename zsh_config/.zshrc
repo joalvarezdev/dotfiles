@@ -26,18 +26,6 @@ export NVM_DIR="$HOME/.nvm"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-
-# BITWARDEN
-if [[ ! -f /tmp/env_dep.txt ]]; then
-  export BW_SESSION=$(bw unlock $(secret-tool lookup bitwarden export_const) --raw)
-  bw sync
-  bw get notes environments > /tmp/env_dep.txt
-  bw get notes infosis > /tmp/env_infs.txt
-fi
-
-source /tmp/env_infs.txt
-source /tmp/env_dep.txt
-
 # *************************************************
 
 source $DOTFILES/zsh_config/generals.sh
