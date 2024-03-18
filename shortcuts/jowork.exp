@@ -1,9 +1,0 @@
-#!/usr/bin/expect -f
-
-spawn ssh-add $env(SSH)/work
-
-expect "Enter passphrase"
-
-send "$env(PASS_SSH)\r"
-
-expect eof

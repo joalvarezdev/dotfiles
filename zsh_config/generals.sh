@@ -5,12 +5,13 @@ alias la='exa --icons -a'
 alias lsa='exa --icons -la'
 
 source $DOTFILES/scripts/bw/bw.sh
-source $DOTFILES/zsh_config/.shortcuts
+source $DOTFILES/scripts/nvm/nvm.sh
 source $DOTFILES/zsh_config/.tmux_init
-source $DOTFILES/zsh_config/.infosis
 source $DOTFILES/zsh_config/.zsh_autosuggestion
-source $DOTFILES/zsh_config/.config_repository
-source $DOTFILES/zsh_config/.alias_git
-source $DOTFILES/zsh_config/.cli_tools
+source $DOTFILES/scripts/infosis/init.sh
+source $DOTFILES/scripts/tools/cli_tools.sh
+source $DOTFILES/scripts/git/git_custom_alias.sh
 source $DOTFILES/zsh_config/.pyenv
-source $DOTFILES/zsh_config/.projects
+
+source $DOTFILES/shortcuts/aliases/generals.sh
+source $DOTFILES/shortcuts/aliases/proyects.sh

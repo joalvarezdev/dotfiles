@@ -1,3 +1,4 @@
+#!/usr/bin/bash
 
 alias jojab='mvn archetype:generate -DarchetypeGroupId=com.joalvarez -DarchetypeArtifactId=base-simple-app'
 alias jojas='mvn archetype:generate -DarchetypeGroupId=com.joalvarez -DarchetypeArtifactId=base-security-app'

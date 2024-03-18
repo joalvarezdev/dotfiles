@@ -1,22 +1,15 @@
-# Generals
+#!/usr/bin/bash
 
+# RELOAD ZSH CONFIGURATION
 alias so='source ~/.zshrc'
 
-# ssh_shortcuts
-
-alias sshl='ssh-add -l'
-alias sshd='ssh-add -D'
-
+# ADD SSH KEY PERS
 alias jopershub='$DOTFILES/shortcuts/jopers.exp &> /dev/null'
-alias jowork='$DOTFILES/shortcuts/jowork.exp &> /dev/null'
 
-# Connection
-
+# SHORCUTS NMCLI
 alias conns='nmcli connection show'
 alias connu='nmcli connection up $1 &> /dev/null'
 alias connd='nmcli connection down $1 &> /dev/null'
 
-# Personal
-
+# Personal work
 alias dep=$MY_GH
-

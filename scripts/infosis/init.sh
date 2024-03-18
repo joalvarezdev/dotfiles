@@ -1,3 +1,11 @@
+#!/usr/bin/bash
+
+export INF="$GHQ_ROOT/gitlab.infosisglobal.com/"
+
+alias infs=$INF
+
+alias srv='lua $MY_GH/config_repository/server/connect_server.lua $1'
+alias ssrv='lua $MY_GH/config_repository/server/show_server.lua $1'
 
 alias zh=$INF/application_props
 
