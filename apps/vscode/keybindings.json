@@ -154,5 +154,22 @@
   {
     "key": "alt+0",
     "command": "-workbench.action.lastEditorInGroup"
+  },
+  {
+    "key": "ctrl+alt+z",
+    "command": "git.revertChange"
+  },
+  {
+    "key": "shift+alt+c",
+    "command": "angular.goToComponentWithTemplateFile"
+  },
+  {
+    "key": "shift+alt+t",
+    "command": "angular.goToTemplateForComponent"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "-extension.vim_ctrl+p",
+    "when": "editorTextFocus && vim.active && vim.use<C-p> && !inDebugRepl || vim.active && vim.use<C-p> && !inDebugRepl && vim.mode == 'CommandlineInProgress' || vim.active && vim.use<C-p> && !inDebugRepl && vim.mode == 'SearchInProgressMode'"
   }
 ]

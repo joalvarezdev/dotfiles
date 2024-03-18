@@ -23,7 +23,7 @@ source $ZSH/oh-my-zsh.sh
 
 # *************************************************
 
-source $DOTFILES/zsh_config/generals.sh
+source $HOME/dotfiles/zsh_config/generals.sh
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"

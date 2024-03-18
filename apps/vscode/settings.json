@@ -74,9 +74,25 @@
   "markdown.marp.enableHtml": true,
   "python.autoComplete.extraPaths": [
     "/home/joalvarez/.vscode-oss/extensions/continue.continue-0.6.17-linux-x64",
-    "/home/joalvarez/.vscode-oss/extensions/continue.continue-0.8.0-linux-x64"
+    "/home/joalvarez/.vscode-oss/extensions/continue.continue-0.8.0-linux-x64",
+    "/home/joalvarez/.vscode-oss/extensions/continue.continue-0.8.1-linux-x64"
   ],
   "workbench.colorTheme": "Horizon Bold",
 
-  "python.venvFolders": ["venv"]
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "python.analysis.extraPaths": [
+    "/home/joalvarez/.vscode-oss/extensions/continue.continue-0.6.17-linux-x64",
+    "/home/joalvarez/.vscode-oss/extensions/continue.continue-0.8.0-linux-x64",
+    "/home/joalvarez/.vscode-oss/extensions/continue.continue-0.8.1-linux-x64"
+  ],
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
+  "git.openRepositoryInParentFolders": "always",
+  "explorer.confirmDragAndDrop": false
 }
