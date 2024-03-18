@@ -15,3 +15,5 @@ alias server='docker compose -f $INF/desarrollo/zwm-api-server/docker-compose.ym
 alias sserver='docker rm -f api-server &> /dev/null'
 
 alias home='$INF/application_props'
+
+alias infsk="k9s --kubeconfig='$HOME/.kube/infosisk8stesting.yaml'"

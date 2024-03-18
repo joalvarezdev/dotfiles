@@ -13,10 +13,10 @@ default_floating_border normal
 #          SHORTCUTS SCRIPTS      #
 ###################################
 
-bindsym $mod+a exec sh ~/ghq/github.com/joalvarezdev/dotfiles/shortcuts/scripts/home_monitor.sh
-bindsym $mod+Shift+s exec sh ~/ghq/github.com/joalvarezdev/dotfiles/shortcuts/scripts/flameshot.sh
-bindsym $mod+Shift+c exec sh ~/ghq/github.com/joalvarezdev/dotfiles/shortcuts/scripts/wifi_toggle.sh
-bindsym $mod+c exec sh ~/ghq/github.com/joalvarezdev/dotfiles/shortcuts/scripts/work_toggle.sh
+bindsym $mod+a exec sh ~/dotfiles/shortcuts/scripts/home_monitor.sh
+bindsym $mod+Shift+s exec sh ~/dotfiles/shortcuts/scripts/flameshot.sh
+bindsym $mod+Shift+c exec sh ~/dotfiles/shortcuts/scripts/wifi_toggle.sh
+bindsym $mod+c exec sh ~/dotfiles/shortcuts/scripts/work_toggle.sh
 
 ###################################
 #      MONITOR SHORTCUTS          #
