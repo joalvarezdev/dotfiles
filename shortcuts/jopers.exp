@@ -7,3 +7,4 @@ expect "Enter passphrase"
 send "$env(PASS_SSH)\r"
 
 expect eof
+
