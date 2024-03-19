@@ -1,0 +1,7 @@
+Host github.com/joalvarezdev
+  User joalvarezdev
+  HostName github.com
+  IdentityFile ~/.ssh/joalvarez-pers
+Host *
+  AddKeysToAgent yes
+  PreferredAuthentications publickey

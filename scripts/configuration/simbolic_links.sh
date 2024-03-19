@@ -41,3 +41,8 @@ fi
 if [ ! -L "$HOME/.zshrc" ]; then
 	ln -s "$dotfiles/zsh_config/.zshrc" "$HOME/.zshrc"
 fi
+
+# SSH CONFIGURATION
+if [ ! -L "$HOME/.ssh/config" ]; then
+	ln -s "$dotfiles/apps/ssh/config" "$HOME/.ssh/config"
+fi
