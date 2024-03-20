@@ -1,6 +1,3 @@
-Host gitlab.infosisglobal.com
-  User joalvarez
-  IdentityFile ~/.ssh/work
 Host github.com/joalvarezdev
   User joalvarezdev
   HostName github.com
