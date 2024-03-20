@@ -1,4 +1,4 @@
-Host github.com/joalvarezdev
+Host github.com
   User joalvarezdev
   HostName github.com
   IdentityFile ~/.ssh/joalvarez-pers
