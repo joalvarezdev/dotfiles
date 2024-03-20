@@ -1,7 +1,9 @@
+Host gitlab.infosisglobal.com
+  User joalvarez
+  IdentityFile ~/.ssh/work
 Host github.com/joalvarezdev
   User joalvarezdev
   HostName github.com
   IdentityFile ~/.ssh/joalvarez-pers
-Host *
   AddKeysToAgent yes
   PreferredAuthentications publickey
