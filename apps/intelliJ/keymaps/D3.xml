@@ -183,7 +183,9 @@
     <keyboard-shortcut first-keystroke="alt o" />
   </action>
   <action id="QuickImplementations" />
-  <action id="ReformatCode" />
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="shift alt f" />
+  </action>
   <action id="ReplaceInPath" />
   <action id="RerunTests" />
   <action id="RestartIde">
