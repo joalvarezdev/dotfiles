@@ -40,4 +40,3 @@ source /tmp/ssh.txt
 source <(ng completion script)
 
 source ~/.oh-my-zsh/plugins/emoji-in-the-shell/emoji-in-the-shell.zsh
-
