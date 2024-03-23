@@ -18,3 +18,4 @@ source $dotfiles/zsh_config/.pyenv
 source $dotfiles/shortcuts/aliases/generals.sh
 source $dotfiles/shortcuts/aliases/proyects.sh
 source $dotfiles/shortcuts/aliases/kconf.sh
+source $dotfiles/shortcuts/aliases/obsidian.sh
