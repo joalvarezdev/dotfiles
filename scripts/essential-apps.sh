@@ -8,4 +8,5 @@ sudo pacman -S --needed --noconfirm \
   ghq \
   neovim \
   zsh \
-  rustup
+  rustup \
+  rofi
