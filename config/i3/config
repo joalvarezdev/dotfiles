@@ -1,0 +1,14 @@
+set $mod Mod4
+
+font pango:monospace 0
+
+# reload configuration
+bindsym $mod+Shift+r reload
+
+# restart i3 
+bindsym $mod+Shift+c restart
+
+for_window [class=".*"] border pixel 0
+
+default_border pixel 0
+default_floating_border pixel 0

@@ -12,6 +12,8 @@ DOTFILES="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 ## CONFIGURATION
 
+"$DOTFILES/config/i3/config.sh"
+
 "$DOTFILES/config/git/config.sh"
 "$DOTFILES/config/ssh/config.sh"
 "$DOTFILES/config/nvm/config.sh"
