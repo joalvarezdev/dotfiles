@@ -1,0 +1,13 @@
+[user]
+  name = joalvarez
+  email = alavarez.joaquinez@gmail.com
+[pull]
+  rebase = true
+[core]
+  editor = nvim
+[credential]
+  helper = store
+[init]
+  defaultBranch = main
+[i18n]
+  logoutputenconding = en_US.UTF-8
