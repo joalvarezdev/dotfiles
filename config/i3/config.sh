@@ -10,4 +10,4 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 DOTFILES="$(dirname "$SCRIPT_DIR")"
 
-ln -sf "$DOTFILES/config/i3/config" "$HOME/.config/i3/config"
+ln -sf "$DOTFILES/i3/config" "$HOME/.config/i3/config"
