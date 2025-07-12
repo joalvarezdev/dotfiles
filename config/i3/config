@@ -2,9 +2,10 @@ set $mod Mod4
 
 font pango:monospace 0
 
+# start a terminal
+bindsym $mod+Return exec alacritty
 # reload configuration
 bindsym $mod+Shift+r reload
-
 # restart i3 
 bindsym $mod+Shift+c restart
 
@@ -12,3 +13,31 @@ for_window [class=".*"] border pixel 0
 
 default_border pixel 0
 default_floating_border pixel 0
+
+client.focused          #00CED1 #00CED1 #80FFF9 #00CED1 #00CED1
+client.focused_inactive #2F3D44 #2F3D44 #00CED1 #454948 #2F3D44
+client.unfocused        #2F3D44 #2F3D44 #00CED1 #454948 #2F3D44
+client.urgent           #FF0000 #FDF6E3 #00CED1 #FF0000 #FF0000
+client.placeholder      #000000 #0c0c0c #00CED1 #000000 #000000
+client.background       #2B2C2B
+
+# WORKSPACES
+
+bindsym $mod+y workspace $ws1
+bindsym $mod+u workspace $ws2
+bindsym $mod+i workspace $ws3
+bindsym $mod+o workspace $ws4
+bindsym $mod+p workspace $ws5
+bindsym $mod+Shift+y workspace $ws6
+bindsym $mod+Shift+u workspace $ws7
+bindsym $mod+Shift+i workspace $ws8
+
+# Move to workspace with focused container
+bindsym $mod+Shift+1 move container to workspace $ws1; workspace $ws1
+bindsym $mod+Shift+2 move container to workspace $ws2; workspace $ws2
+bindsym $mod+Shift+3 move container to workspace $ws3; workspace $ws3
+bindsym $mod+Shift+4 move container to workspace $ws4; workspace $ws4
+bindsym $mod+Shift+5 move container to workspace $ws5; workspace $ws5
+bindsym $mod+Shift+6 move container to workspace $ws6; workspace $ws6
+bindsym $mod+Shift+7 move container to workspace $ws7; workspace $ws7
+bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
