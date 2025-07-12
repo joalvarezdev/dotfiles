@@ -42,6 +42,30 @@ bindsym $mod+Shift+6 move container to workspace $ws6; workspace $ws6
 bindsym $mod+Shift+7 move container to workspace $ws7; workspace $ws7
 bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
 
+# CHANGE FOCUS
+bindsym $mod+j focus down
+bindsym $mod+k focus up 
+bindsym $mod+l focus right
+bindsym $mod+h focus left 
+
+# MOVE FOCUSED WINDOW
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up 
+bindsym $mod+Shift+l move right
+bindsym $mod+Shift+h move left 
+
 ### ROFI
 
 bindsym $mod+d exec --no-startup-id rofi -show drun
+
+### GENERALS
+
+bindsym $mod+Shift+q kill
+
+### CONFIGURE LAYOUTS
+
+bindsym $mod+s layout stacking
+bindsym $mod+w layout tabbed
+bindsym $mod+e layout toggle split
+
+bindsym $mod+Shift+f floating toggle
