@@ -12,4 +12,5 @@ sudo pacman -S --needed --noconfirm \
   rofi \
   nvm \
   unzip \
-  jq
+  jq \
+  tmux
