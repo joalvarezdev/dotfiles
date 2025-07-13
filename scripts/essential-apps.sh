@@ -13,4 +13,6 @@ sudo pacman -S --needed --noconfirm \
   nvm \
   unzip \
   jq \
-  tmux
+  tmux \
+  kubectl \
+  k9s

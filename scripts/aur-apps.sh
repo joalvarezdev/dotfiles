@@ -17,4 +17,5 @@ yay -S --needed --noconfirm \
   brave-bin \
   bun-bin \
   uv \
-  github-cli
+  github-cli \
+  kconf
