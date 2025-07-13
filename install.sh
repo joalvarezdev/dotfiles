@@ -2,23 +2,23 @@
 
 set -e
 
-DOTFILES="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+INSTALL_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-"$DOTFILES/scripts/essential-apps.sh"
-"$DOTFILES/scripts/aur.sh"
-"$DOTFILES/scripts/aur-apps.sh"
-"$DOTFILES/scripts/shell.sh"
-"$DOTFILES/scripts/fonts.sh"
-"$DOTFILES/scripts/goji.sh"
+"$INSTALL_DIR/scripts/essential-apps.sh"
+"$INSTALL_DIR/scripts/aur.sh"
+"$INSTALL_DIR/scripts/aur-apps.sh"
+"$INSTALL_DIR/scripts/shell.sh"
+"$INSTALL_DIR/scripts/fonts.sh"
+"$INSTALL_DIR/scripts/goji.sh"
 
 ## CONFIGURATION
 
-"$DOTFILES/config/i3/config.sh"
+"$INSTALL_DIR/config/i3/config.sh"
 
-"$DOTFILES/config/git/config.sh"
-"$DOTFILES/config/ssh/config.sh"
-"$DOTFILES/config/nvm/config.sh"
-"$DOTFILES/config/nvim/config.sh"
+"$INSTALL_DIR/config/git/config.sh"
+"$INSTALL_DIR/config/ssh/config.sh"
+"$INSTALL_DIR/config/nvm/config.sh"
+"$INSTALL_DIR/config/nvim/config.sh"
 
-"$DOTFILES/config/alacritty/config.sh"
-"$DOTFILES/config/zsh/config.sh"
+"$INSTALL_DIR/config/alacritty/config.sh"
+"$INSTALL_DIR/config/zsh/config.sh"
