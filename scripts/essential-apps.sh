@@ -17,4 +17,10 @@ sudo pacman -S --needed --noconfirm \
   kubectl \
   k9s \
   docker \
-  docker-compose
+  docker-compose \
+  make \
+  gcc \
+  fzf \
+  ripgrep \
+  lua \
+  luarocks
