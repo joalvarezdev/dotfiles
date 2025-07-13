@@ -9,4 +9,5 @@ sudo pacman -S --needed --noconfirm \
   neovim \
   zsh \
   rustup \
-  rofi
+  rofi \
+  nvm

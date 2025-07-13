@@ -2,7 +2,9 @@
 
 set -e
 
-sudo pacman -S --needed --noconfirm ttf-fira-code
+sudo pacman -S --needed --noconfirm \
+  ttf-fira-code \
+  ttf-firacode-nerd
 
 mkdir -p ~/.local/share/fonts
 
@@ -15,4 +17,4 @@ curl -L "https://github.com/romkattv/powerlevel10k-media/raw/master/MesloLGS%20%
 curl -L "https://github.com/romkattv/powerlevel10k-media/raw/master/MesloLGS%20%NF%20%Bold%20%.ttf" -o ~/.local/share/fonts/"MesloLGS NF Bold.ttf"
 
 # update cache
-fc-cache -fv
+fc-cache -fv &>/dev/null

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ -d "$HOME/.config/i3" ]; then
-  exit 0
+  rm -rf "$HOME/.config/i3"
 fi
 
 mkdir -p "$HOME/.config/i3"
