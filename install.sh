@@ -9,6 +9,7 @@ DOTFILES="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 "$DOTFILES/scripts/aur-apps.sh"
 "$DOTFILES/scripts/shell.sh"
 "$DOTFILES/scripts/fonts.sh"
+"$DOTFILES/scripts/goji.sh"
 
 ## CONFIGURATION
 
