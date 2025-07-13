@@ -19,4 +19,5 @@ yay -S --needed --noconfirm \
   uv \
   github-cli \
   kconf \
-  bitwarden-cli
+  bitwarden-cli \
+  flameshot
