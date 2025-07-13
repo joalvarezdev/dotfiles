@@ -10,4 +10,6 @@ sudo pacman -S --needed --noconfirm \
   zsh \
   rustup \
   rofi \
-  nvm
+  nvm \
+  unzip \
+  jq
