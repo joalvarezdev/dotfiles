@@ -4,7 +4,8 @@ set -e
 
 sudo pacman -S --needed --noconfirm \
   ttf-fira-code \
-  ttf-firacode-nerd
+  ttf-firacode-nerd \
+  noto-fonts-emoji
 
 mkdir -p ~/.local/share/fonts
 
