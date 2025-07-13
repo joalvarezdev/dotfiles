@@ -18,4 +18,5 @@ yay -S --needed --noconfirm \
   bun-bin \
   uv \
   github-cli \
-  kconf
+  kconf \
+  bitwarden-cli
