@@ -2,8 +2,10 @@
 padding.x = 6
 padding.y = 6
 
+opacity = 0.5
+
 [font]
-normal.family = "FiraCode Nerd Font"
+normal.family = "Fira Code"
 bold.family = "FiraCode Nerd Font"
 italic.family = "FiraCode Nerd Font"
 bold_italic.family = "FiraCode Nerd Font"
