@@ -15,4 +15,6 @@ sudo pacman -S --needed --noconfirm \
   jq \
   tmux \
   kubectl \
-  k9s
+  k9s \
+  docker \
+  docker-compose

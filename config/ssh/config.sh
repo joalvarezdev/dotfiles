@@ -10,8 +10,8 @@ fi
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-DOTFILES="$(dirname "$SCRIPT_DIR")"
+INSTALLATION_DIR="$(dirname "$SCRIPT_DIR")"
 
-ln -sf "$DOTFILES/ssh/config" "$HOME/.ssh/config"
+ln -sf "$INSTALLATION_DIR/ssh/config" "$HOME/.ssh/config"
 
-"$DOTFILES/ssh/create_pub_key.sh"
+"$INSTALLATION_DIR/ssh/create_pub_key.sh"

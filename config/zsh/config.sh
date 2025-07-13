@@ -27,8 +27,8 @@ fi
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-DOTFILES="$(dirname "$SCRIPT_DIR")"
+INSTALLATION_DIR="$(dirname "$SCRIPT_DIR")"
 
-ln -sf "$DOTFILES/zsh/.p10k.zsh" "$HOME/"
+ln -sf "$INSTALLATION_DIR/zsh/.p10k.zsh" "$HOME/"
 
-ln -sf "$DOTFILES/zsh/.zshrc" "$HOME/"
+ln -sf "$INSTALLATION_DIR/zsh/.zshrc" "$HOME/"
