@@ -10,7 +10,6 @@ export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
 plugins=(
-  git
   zsh-autosuggestions
   zsh-syntax-highlighting
 )
@@ -35,5 +34,7 @@ export NVM_DIR="$HOME/.nvm"
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+[ -s "/home/joalvarez/.scm_breeze/scm_breeze.sh" ] && source "/home/joalvarez/.scm_breeze/scm_breeze.sh"
 
 source $HOME/dotfiles/config/zsh/zsh-generals.sh

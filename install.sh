@@ -20,6 +20,7 @@ INSTALL_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 "$INSTALL_DIR/config/nvm/config.sh"
 "$INSTALL_DIR/config/nvim/config.sh"
 "$INSTALL_DIR/config/docker/config.sh"
+"$INSTALL_DIR/config/breeze/config.sh"
 
 "$INSTALL_DIR/config/alacritty/config.sh"
 "$INSTALL_DIR/config/zsh/config.sh"
