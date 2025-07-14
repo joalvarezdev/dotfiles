@@ -1,0 +1,141 @@
+let mapleader = " "
+
+set clipboard=unnamedplus
+
+imap jk <Esc>
+
+"""" GUARDAR ARCHIVO
+nmap <leader>w :w<CR>
+"""" CERRAR ARCHIVO
+nmap <A-e> :q<CR>
+
+nnoremap n nzz
+nnoremap N Nzz
+
+"""" RECARGAR .ideavimrc
+nnoremap <leader>so :source ~/.ideavimrc<CR>
+
+""" MOVE LINES
+noremap <A-S-J> :action MoveLineDown<CR>
+noremap <A-S-K> :action MoveLineUp<CR>
+
+"""" REFACTORIZACION
+    """ RENOMBRAR CLASE, VARIABLE, METODO
+noremap <leader>re :action RenameElement<CR>
+    """ EXTRAER EN UN METODO CODIGO SELECCIONADO
+noremap <leader>em :action ExtractMethod<CR>
+    """ SELECCIONAR PALABRA
+noremap <leader>sw :action EditorSelectWord<CR>
+    """ MOVER LINEAS SELECCIONADAS
+    """ DUPLICAR LINEAS SELECCIONADAS
+noremap <C-d> :action EditorDuplicateLines<CR>
+    """ DAR FORMATO AL CODIGO
+noremap <C-S-I> :action ReformatCode<CR>    
+    """ Insertar Getter y Setter
+noremap <A-S-T> :action GenerateGetterAndSetter<CR>
+    """ Intertar Getter
+noremap <A-S-G> :action GenerateGetter<CR>
+    """ Sobreescribir metodos
+noremap <A-S-O> :action OverrideMethods<CR>
+
+""" BOOKMARKS
+noremap <leader>0 :action ToggleBookmark0<CR>
+noremap <leader>1 :action ToggleBookmark1<CR>
+noremap <leader>2 :action ToggleBookmark2<CR>
+noremap <leader>3 :action ToggleBookmark3<CR>
+noremap <leader>4 :action ToggleBookmark4<CR>
+noremap <leader>5 :action ToggleBookmark5<CR>
+noremap <leader>6 :action ToggleBookmark6<CR>
+noremap <leader>7 :action ToggleBookmark7<CR>
+noremap <leader>8 :action ToggleBookmark8<CR>
+noremap <leader>9 :action ToggleBookmark9<CR>
+""" Por defecto Intellij tiene configurado Ctrl + <num> para ir al punto
+""" marcado.
+
+"""" ACCIONES DE ARRANQUE DE APP
+noremap <leader>dd :action Debug<CR>
+noremap <leader>rr :action Run<CR>
+noremap <leader>sp :action Stop<CR>
+noremap <leader>cc :action Coverage<CR>
+noremap <leader>cn :action RunCoverage<CR>
+noremap <leader>hs :action Hotswap<CR>
+
+noremap <leader>sr :action RunConfiguration<CR>
+noremap <leader>ec :action editRunConfigurations<CR>
+
+"""" ACCIONES DE DEBUG
+nmap <C-S-j> :action StepOver<CR>
+nmap <C-S-K> :action Resume<CR>
+nmap <C-S-H> :action StepOut<CR>
+nmap <C-S-L> :action StepInto<CR>
+nmap <C-p> :action ShowExecutionPoint<CR>
+nmap <C-e> :action EvaluateExpression<CR>
+    """ ACTIVAR/DESACTIVAR BREAKPOINT
+nmap <S-C-b> :action ToggleBreakpointEnabled<CR>
+    """ MARCAR BREAKPOINT
+noremap <S-B> :action ToggleLineBreakpoint<CR>
+    """ EVALUAR CODIGO SELECCIONADO
+noremap <leader>ee :action EvaluateExpression<CR>
+    """ DESACTIVAR BREAKPOINTS
+noremap <leader>mb :action XDebugger.MuteBreakpoints<CR>
+    """ ELIMINAR TODOS LOS BREAKPOINTS EN EL ARCHIVO
+noremap <leader>rab :action Debugger.RemoveAllBreakpointsInFile<CR>
+    """ ELIMINAR TODOS LOS BREAKPOINTS EN EL PROYECTO
+noremap <leader>raB :action Debugger.RemoveAllBreakpoints<CR>
+
+"""" ACCIONES IDE
+    """ CERRAR TODOS LOS ARCHIVOS ABIERTOS
+noremap <leader>[ :action CloseAllEditors<CR>
+    """ CERRAR PROYECTO
+noremap <leader>cp :action CloseProject<CR>
+    """ ABRIR UN PROYECTO
+noremap <leader>op :action OpenFile<CR>
+    """ REINICIAR IDE
+noremap <leader>ri :action RestartIde<CR>
+    """ Abrir terminal
+noremap <leader>at :action ActivateTerminalToolWindow<CR>
+
+"""" BUSCAR USOS
+    """ MUESTRA TODOS LOS USOS METODO, CLASE, VARIABLE
+nmap <A-d> :action ShowUsages<CR>
+    """ IR A LA IMPLEMENTACION CLASE, METODO, VARIABLE
+"""noremap <leader>gi mm`m:action GotoImplementation<CR>
+noremap <leader>gi :action GotoImplementation<CR>
+    """ CAMBIOS REALIZADOS EN EL ARCHIVO (GIT)
+noremap <leader>; :action VcsShowNextChangeMarker<CR>
+noremap <leader>' :action VcsShowPrevChangeMarker<CR>
+    """ ERRORES EN EL ARCHIVO
+noremap <leader>ne mm`m:action GotoNextError<CR>
+noremap <leader>pe mm`m:action GotoPreviousError<CR>
+
+noremap <A-S-H> :action Back<CR>
+noremap <A-S-L> :action Forward<CR>
+
+"""" SEPARAR EDITOR
+    """ SEPARAR EDITOR HORIZONTALMENTE
+noremap <A-S--> :action SplitHorizontally<CR>
+    """ SEPARAR EDITOR VERTICALMENTE
+noremap <A-S-\> :action SplitVertically<CR>
+    """ MOVERSE ENTRE DIFERENTES SEPARACIONES
+noremap <A-H> :action NextSplitter<CR>
+noremap <A-L> :action PrevSplitter<CR>
+
+"""" TEST UNITARIOS
+    """ 
+""""
+
+noremap <C-m> :action MethodUp<CR>
+noremap <C-n> :action MethodDown<CR>
+
+noremap <C-b> :action EditorCodeBlockEnd<CR>
+noremap <C-v> :action EditorCodeBlockStart<CR>
+
+noremap <C-k> :action NextTab<CR>
+noremap <C-j> :action PreviousTab<CR>
+
+noremap <leader>/ :action CommentByLineComment<CR>
+xnoremap <leader>/ :action CommentByBlockComment<CR>
+
+noremap <C-/> :action ActivateTerminalToolWindow<CR>
+
+" noremap <C-A-c> :action EditorAddOrRemoveCaret<CR>

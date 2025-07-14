@@ -12,7 +12,7 @@ fi
 
 git clone https://github.com/lr-tech/rofi-themes-collection.git /tmp/rofi
 
-sudo cp -r "$ROFI_TMP/themes" /usr/share/rofi/themes
+sudo cp -r "$ROFI_TMP/themes/*" /usr/share/rofi/themes
 
 sudo rm -rf $ROFI_TMP
 
@@ -23,5 +23,7 @@ INSTALATION_CONF="$(dirname "$SCRIPT_DIR")"
 if [ -d $ROFI_CONFIG ]; then
   rm -rf $ROFI_CONFIG
 fi
+
+mkdir -p $ROFI_CONFIG
 
 ln -sf "$INSTALATION_CONF/i3/config.rasi" $ROFI_CONFIG

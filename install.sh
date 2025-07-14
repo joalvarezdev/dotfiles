@@ -10,6 +10,7 @@ INSTALL_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 "$INSTALL_DIR/scripts/shell.sh"
 "$INSTALL_DIR/scripts/fonts.sh"
 "$INSTALL_DIR/scripts/goji.sh"
+"$INSTALL_DIR/scripts/sdkman.sh"
 
 ## CONFIGURATION
 
@@ -17,6 +18,7 @@ INSTALL_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 "$INSTALL_DIR/config/git/config.sh"
 "$INSTALL_DIR/config/ssh/config.sh"
+"$INSTALL_DIR/config/tmux/config.sh"
 "$INSTALL_DIR/config/nvm/config.sh"
 "$INSTALL_DIR/config/nvim/config.sh"
 "$INSTALL_DIR/config/docker/config.sh"

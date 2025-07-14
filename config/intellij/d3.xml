@@ -1,0 +1,267 @@
+<keymap version="1" name="D3" parent="Default for GNOME">
+  <action id="$Delete">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
+  <action id="ActivateBookmarksToolWindow" />
+  <action id="ActivateCodeiumChatToolWindow">
+    <keyboard-shortcut first-keystroke="alt 3" />
+  </action>
+  <action id="ActivateCoverageToolWindow">
+    <keyboard-shortcut first-keystroke="shift alt 2" />
+  </action>
+  <action id="ActivateDatabaseToolWindow">
+    <keyboard-shortcut first-keystroke="alt 2" />
+  </action>
+  <action id="ActivateDebugToolWindow">
+    <keyboard-shortcut first-keystroke="alt 9" />
+  </action>
+  <action id="ActivateFindToolWindow" />
+  <action id="ActivateGitHubMarkdownEmojisToolWindow">
+    <keyboard-shortcut first-keystroke="alt 5" />
+  </action>
+  <action id="ActivateGradleToolWindow">
+    <keyboard-shortcut first-keystroke="alt 4" />
+  </action>
+  <action id="ActivateMavenToolWindow">
+    <keyboard-shortcut first-keystroke="alt 4" />
+  </action>
+  <action id="ActivatePlantUMLToolWindow">
+    <keyboard-shortcut first-keystroke="alt 5" />
+  </action>
+  <action id="ActivateProblemsViewToolWindow">
+    <keyboard-shortcut first-keystroke="alt 6" />
+    <keyboard-shortcut first-keystroke="ctrl alt 1" />
+  </action>
+  <action id="ActivateRunToolWindow" />
+  <action id="ActivateSonarLintToolWindow">
+    <keyboard-shortcut first-keystroke="alt 3" />
+  </action>
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="shift alt t" />
+    <keyboard-shortcut first-keystroke="ctrl alt 0" />
+  </action>
+  <action id="ActivateVersionControlToolWindow" />
+  <action id="Android.Designer.AutoArrange" />
+  <action id="Annotate">
+    <keyboard-shortcut first-keystroke="ctrl alt g" />
+  </action>
+  <action id="Arrangement.Alias.Rule.Remove">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
+  <action id="Arrangement.Rule.Remove">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
+  <action id="BookmarksView.Delete">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
+  <action id="ChangesView.ToggleCommitUi" />
+  <action id="CheckinProject" />
+  <action id="ChooseDebugConfiguration">
+    <keyboard-shortcut first-keystroke="shift alt f9" />
+    <keyboard-shortcut first-keystroke="shift alt d" />
+  </action>
+  <action id="ChooseRunConfiguration">
+    <keyboard-shortcut first-keystroke="shift alt f10" />
+    <keyboard-shortcut first-keystroke="shift alt r" />
+  </action>
+  <action id="CloseAllEditors">
+    <keyboard-shortcut first-keystroke="alt close_bracket" />
+  </action>
+  <action id="CloseAllEditorsButActive">
+    <keyboard-shortcut first-keystroke="alt open_bracket" />
+  </action>
+  <action id="CloseContent" />
+  <action id="CloseProject">
+    <keyboard-shortcut first-keystroke="alt c" />
+  </action>
+  <action id="CompareTwoFiles" />
+  <action id="ConsoleView.ShowAsJsonAction">
+    <keyboard-shortcut first-keystroke="shift s" />
+  </action>
+  <action id="Coverage">
+    <keyboard-shortcut first-keystroke="shift alt e" />
+  </action>
+  <action id="DatabaseView.SqlGenerator" />
+  <action id="Debugger.RemoveArrayFilter">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
+  <action id="Debugger.RemoveCustomField">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
+  <action id="DeleteRecentFiles">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
+  <action id="Diagram.DeleteSelection">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
+  <action id="Diff.ShowDiff" />
+  <action id="DomCollectionControl.Remove">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
+  <action id="EditorDelete">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
+  <action id="EditorDown">
+    <keyboard-shortcut first-keystroke="down" />
+    <keyboard-shortcut first-keystroke="alt j" />
+  </action>
+  <action id="EditorDuplicate" />
+  <action id="EditorLeft">
+    <keyboard-shortcut first-keystroke="left" />
+    <keyboard-shortcut first-keystroke="alt h" />
+  </action>
+  <action id="EditorRight">
+    <keyboard-shortcut first-keystroke="right" />
+    <keyboard-shortcut first-keystroke="alt l" />
+  </action>
+  <action id="EditorUp">
+    <keyboard-shortcut first-keystroke="up" />
+    <keyboard-shortcut first-keystroke="alt k" />
+  </action>
+  <action id="EmmetPreviousEditPoint" />
+  <action id="ExportToTextFile" />
+  <action id="ExternalSystem.DetachProject">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
+  <action id="FileChooser.Delete">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
+  <action id="FileChooser.GotoDesktop" />
+  <action id="FileChooser.TogglePathBar" />
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="f3" />
+  </action>
+  <action id="Generate">
+    <keyboard-shortcut first-keystroke="ctrl g" />
+    <keyboard-shortcut first-keystroke="shift ctrl g" />
+  </action>
+  <action id="GenerateTestMethod">
+    <keyboard-shortcut first-keystroke="alt g" />
+  </action>
+  <action id="Git.Commit.And.Push.Executor" />
+  <action id="Git.Commit.Stage" />
+  <action id="Git.Stash.Drop">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
+  <action id="GotoClass" />
+  <action id="GotoDeclaration">
+    <mouse-shortcut keystroke="control button1" />
+  </action>
+  <action id="GotoImplementation">
+    <keyboard-shortcut first-keystroke="alt i" />
+  </action>
+  <action id="GotoLine" />
+  <action id="GotoRow" />
+  <action id="GotoTest" />
+  <action id="Graph.Delete">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
+  <action id="GuiDesigner.DeleteComponent">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
+  <action id="GuiDesigner.DeleteGroup">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
+  <action id="GuiDesigner.Duplicate" />
+  <action id="HTTPClient.RunAll">
+    <keyboard-shortcut first-keystroke="alt r" />
+  </action>
+  <action id="Hg.Commit.And.Push.Executor" />
+  <action id="Hotswap">
+    <keyboard-shortcut first-keystroke="shift alt h" />
+  </action>
+  <action id="Images.Thumbnails.Hide" />
+  <action id="InsertLiveTemplate" />
+  <action id="Kotlin.RunScratch" />
+  <action id="Maven.Reimport">
+    <keyboard-shortcut first-keystroke="alt m" />
+  </action>
+  <action id="NewClass">
+    <keyboard-shortcut first-keystroke="alt f" />
+  </action>
+  <action id="NewDir">
+    <keyboard-shortcut first-keystroke="alt p" />
+  </action>
+  <action id="NewFile">
+    <keyboard-shortcut first-keystroke="alt a" />
+  </action>
+  <action id="OpenFile">
+    <keyboard-shortcut first-keystroke="alt o" />
+  </action>
+  <action id="QuickImplementations" />
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="shift alt f" />
+  </action>
+  <action id="ReplaceInPath" />
+  <action id="RerunTests" />
+  <action id="RestartIde">
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
+  </action>
+  <action id="RunDashboard.CopyConfiguration" />
+  <action id="RunDashboard.UngroupConfigurations">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
+  <action id="SearchEverywhere">
+    <keyboard-shortcut first-keystroke="alt s" />
+  </action>
+  <action id="SelectNextOccurrence" />
+  <action id="SendEOF" />
+  <action id="ShowReformatFileDialog">
+    <keyboard-shortcut first-keystroke="ctrl alt w" />
+  </action>
+  <action id="Terminal.ClearBuffer" />
+  <action id="Terminal.CloseTab" />
+  <action id="ToggleFullScreen">
+    <keyboard-shortcut first-keystroke="alt e" />
+  </action>
+  <action id="ToggleLineBreakpoint">
+    <keyboard-shortcut first-keystroke="ctrl f8" />
+    <keyboard-shortcut first-keystroke="alt b" />
+  </action>
+  <action id="ToggleZenMode">
+    <keyboard-shortcut first-keystroke="alt w" />
+  </action>
+  <action id="TypeHierarchy" />
+  <action id="TypeHierarchyBase.BaseOnThisType" />
+  <action id="UsageGrouping.DirectoryStructure" />
+  <action id="UsageView.Exclude">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
+  <action id="Vcs.Log.FocusTextFilter" />
+  <action id="Vcs.Shelf.Drop">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
+  <action id="Vcs.ToggleAmendCommitMode" />
+  <action id="Vcs.UpdateProject" />
+  <action id="WelcomeScreen.RemoveSelected">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
+  <action id="XDebugger.CopyWatch" />
+  <action id="XDebugger.MuteBreakpoints">
+    <keyboard-shortcut first-keystroke="ctrl alt b" />
+  </action>
+  <action id="XDebugger.RemoveWatch">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
+  <action id="XmlGenerateToolsGroup">
+    <keyboard-shortcut first-keystroke="alt x" />
+  </action>
+  <action id="copilot.disposeInlays" />
+  <action id="copilot.requestCompletions">
+    <keyboard-shortcut first-keystroke="alt back_slash" />
+    <keyboard-shortcut first-keystroke="alt semicolon" />
+  </action>
+  <action id="editRunConfigurations">
+    <keyboard-shortcut first-keystroke="ctrl alt d" />
+  </action>
+  <action id="hg4idea.QDelete">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
+  <action id="hg4idea.QFold" />
+  <action id="performancePlugin.ShowMemoryDialogAction">
+    <keyboard-shortcut first-keystroke="ctrl alt k" />
+  </action>
+  <action id="tasks.switch" />
+</keymap>
