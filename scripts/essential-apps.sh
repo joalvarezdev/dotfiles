@@ -23,4 +23,5 @@ sudo pacman -S --needed --noconfirm \
   fzf \
   ripgrep \
   lua \
-  luarocks
+  luarocks \
+  ruby
