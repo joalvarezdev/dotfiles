@@ -82,5 +82,5 @@ bindsym $mod+9 exec --no-startup-id systemctl reboot
 
 ### APPS
 bindsym $mod+Shift+s exec flameshot gui
-
+bindsym $mod+c exec sh $HOME/dotfiles/shortcuts/infosis/vpn-connection.sh
 
