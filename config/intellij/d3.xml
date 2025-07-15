@@ -122,6 +122,7 @@
   </action>
   <action id="EmmetPreviousEditPoint" />
   <action id="ExportToTextFile" />
+  <action id="ExpressionTypeInfo" />
   <action id="ExternalSystem.DetachProject">
     <keyboard-shortcut first-keystroke="delete" />
   </action>

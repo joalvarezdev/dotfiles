@@ -37,8 +37,5 @@ export SDKMAN_DIR="$HOME/.sdkman"
 
 [ -s "/home/joalvarez/.scm_breeze/scm_breeze.sh" ] && source "/home/joalvarez/.scm_breeze/scm_breeze.sh"
 
-export PATH="/home/joalvarez/.bun/bin:$PATH"
-export PATH="/home/joalvarez/.local/bin:$PATH"
-
 source $HOME/dotfiles/config/zsh/zsh-generals.sh
 
