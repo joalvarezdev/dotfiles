@@ -24,4 +24,6 @@ sudo pacman -S --needed --noconfirm \
   ripgrep \
   lua \
   luarocks \
-  ruby
+  ruby \
+  sshpass \
+  python-cookiecutter
