@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CONNECTION="OpenVPN Server"
+CONNECTION="infosis"
 PASSWORD="r(6bjuysz:I\\"
 
 if nmcli connection show --active | grep -q "^$CONNECTION"; then
