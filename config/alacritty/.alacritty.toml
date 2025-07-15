@@ -11,4 +11,4 @@ italic.family = "FiraCode Nerd Font"
 bold_italic.family = "FiraCode Nerd Font"
 
 normal.style = 'Bold'
-size = 9
+size = 11

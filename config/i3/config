@@ -21,6 +21,8 @@ client.urgent           #FF0000 #FDF6E3 #00CED1 #FF0000 #FF0000
 client.placeholder      #000000 #0c0c0c #00CED1 #000000 #000000
 client.background       #2B2C2B
 
+exec_always setxkbmap -layout us -variant altgr-intl
+
 exec sh $HOME/dotfiles/shortcuts/monitor/config.sh
 
 # WORKSPACES
