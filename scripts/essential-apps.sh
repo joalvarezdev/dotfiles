@@ -26,4 +26,5 @@ sudo pacman -S --needed --noconfirm \
   luarocks \
   ruby \
   sshpass \
-  python-cookiecutter
+  python-cookiecutter \
+  xclip
