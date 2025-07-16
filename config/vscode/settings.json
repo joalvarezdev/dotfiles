@@ -1,5 +1,5 @@
 {
-  "editor.fontFamily": "'FiraCode NF', 'monospace', monospace, Noto Color Emoji",
+  "editor.fontFamily": "'Fira Code', 'monospace', monospace, Noto Color Emoji",
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.minimap.enabled": false,
   "editor.wordWrap": "on",
