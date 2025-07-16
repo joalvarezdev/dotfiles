@@ -26,3 +26,7 @@ INSTALL_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 "$INSTALL_DIR/config/alacritty/config.sh"
 "$INSTALL_DIR/config/zsh/config.sh"
+
+"$INSTALL_DIR/config/intelij/config.sh"
+"$INSTALL_DIR/config/vscode/config.sh"
+"$INSTALL_DIR/config/monitor/config.sh"

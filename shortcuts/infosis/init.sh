@@ -11,3 +11,7 @@ alias cp::sec="cp $HOME/ghq/gitlab.infosisglobal.com/desarrollo/Modulo-Seguridad
   $HOME/ghq/gitlab.infosisglobal.com/desarrollo/Modulo-Seguridad/modulo-seguridad/securityModules.xml \
   $HOME/ghq/gitlab.infosisglobal.com/desarrollo/Modulo-Seguridad/modulo-seguridad/version-modulo-seguridad.xml \
   $HOME/ghq/gitlab.infosisglobal.com/configuration/zeushome"
+
+alias tkn::app="$DOTFILES/shortcuts/infosis/token_application.sh"
+
+alias tkn::usr="$DOTFILES/shortcuts/infosis/token_user.sh"
