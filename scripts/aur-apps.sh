@@ -21,4 +21,6 @@ yay -S --needed --noconfirm \
   kconf \
   bitwarden-cli \
   flameshot \
-  eovpn
+  coursier \
+  gitleaks \
+  hadolint-bin

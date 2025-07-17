@@ -27,4 +27,6 @@ sudo pacman -S --needed --noconfirm \
   ruby \
   sshpass \
   python-cookiecutter \
-  xclip
+  xclip \
+  pre-commit \
+  shellcheck
