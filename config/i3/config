@@ -23,7 +23,7 @@ client.background       #2B2C2B
 
 exec_always setxkbmap -layout us -variant altgr-intl
 
-exec sh $HOME/dotfiles/shortcuts/monitor/config.sh
+exec sh $HOME/dotfiles/config/monitor/config.sh
 
 # WORKSPACES
 

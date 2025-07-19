@@ -29,4 +29,5 @@ sudo pacman -S --needed --noconfirm \
   python-cookiecutter \
   xclip \
   pre-commit \
-  shellcheck
+  shellcheck \
+  ansible

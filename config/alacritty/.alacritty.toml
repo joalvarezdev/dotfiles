@@ -11,4 +11,4 @@ italic.family = "UbuntuMono Nerd Font"
 bold_italic.family = "UbuntuMono Nerd Font"
 
 normal.style = 'Bold'
-size = 10
+size = 12
