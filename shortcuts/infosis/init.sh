@@ -15,3 +15,5 @@ alias cp::sec="cp $HOME/ghq/gitlab.infosisglobal.com/desarrollo/Modulo-Seguridad
 alias tkn::app="$DOTFILES/shortcuts/infosis/token_application.sh"
 
 alias tkn::usr="$DOTFILES/shortcuts/infosis/token_user.sh"
+
+alias java::api::infs="cookiecutter https://gitlab.infosisglobal.com/starter-kit/cookiecutter-api-framework.git"

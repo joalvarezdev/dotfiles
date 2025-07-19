@@ -5,6 +5,7 @@ jira::supp() {
   local story_points="1"
   local story_points_dev="1"
   local help_flag=false
+  local parent=""
 
   if ! command -v jira &>/dev/null; then
     echo "El comando 'jira' no está instalado o no se encuentra en el PATH."
@@ -53,6 +54,14 @@ jira::supp() {
       story_points_dev="$2"
       shift 2
       ;;
+    -p | --parent)
+      if [[ -z "$2" || "$2" =~ ^- ]]; then
+        echo "error: --parrent requiere un valor"
+        return 1
+      fi
+      parent="$2"
+      shift 2
+      ;;
     *)
       echo "Parámetro desconocido: $1"
       echo "Usa jira:supp --help para ver opciones"
@@ -66,7 +75,6 @@ jira::supp() {
     "-a" $assignee
     "--custom" "story-point-estimate=$story_points"
     "--custom" "story-points-desarrollo=$story_points_dev"
-    "-C" "Support"
   )
 
   if [[ -n "$label" ]]; then
@@ -75,6 +83,10 @@ jira::supp() {
 
   if [[ -n "$component" ]]; then
     cmd+=("-C" "$component")
+  fi
+
+  if [[ -n "$parent" ]]; then
+    cmd+=("-P" "$parent")
   fi
 
   eval $cmd

@@ -2,13 +2,13 @@
 padding.x = 6
 padding.y = 6
 
-opacity = 0.5
+opacity = 0.1
 
 [font]
-normal.family = "Fira Code"
-bold.family = "FiraCode Nerd Font"
-italic.family = "FiraCode Nerd Font"
-bold_italic.family = "FiraCode Nerd Font"
+normal.family = "UbuntuMono Nerd Font"
+bold.family = "UbuntuMono Nerd Font"
+italic.family = "UbuntuMono Nerd Font"
+bold_italic.family = "UbuntuMono Nerd Font"
 
 normal.style = 'Bold'
-size = 11
+size = 10
