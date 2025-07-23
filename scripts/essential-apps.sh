@@ -30,4 +30,5 @@ sudo pacman -S --needed --noconfirm \
   xclip \
   pre-commit \
   shellcheck \
-  ansible
+  ansible \
+  feh
