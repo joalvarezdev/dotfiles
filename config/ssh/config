@@ -5,3 +5,9 @@ Host github.com
   AddKeysToAgent yes
   PreferredAuthentications publickey
 
+Host ts14
+  HostName 10.0.0.54
+  User desarrollo
+  port 22
+  IdentityFile ~/.ssh/ts14
+

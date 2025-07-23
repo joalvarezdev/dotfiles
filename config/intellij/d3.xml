@@ -37,6 +37,9 @@
   <action id="ActivateSonarLintToolWindow">
     <keyboard-shortcut first-keystroke="alt 3" />
   </action>
+  <action id="ActivateTODOToolWindow">
+    <keyboard-shortcut first-keystroke="alt 2" />
+  </action>
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="shift alt t" />
     <keyboard-shortcut first-keystroke="ctrl alt 0" />

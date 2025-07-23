@@ -96,11 +96,10 @@
       "name": "revert"
     },
     {
-      "emoji": "⚙",
+      "emoji": "👷",
       "code": ":ci:",
-      "description": "Add or update Continuous Integration configuration.",
+      "description": "Add or update Continuous Integration.",
       "name": "ci"
     }
   ]
 }
-

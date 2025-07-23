@@ -1,5 +1,6 @@
 {
   "editor.fontFamily": "'UbuntuMono Nerd Font', 'monospace', monospace, Noto Color Emoji",
+  "editor.fontSize": 16,
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.minimap.enabled": false,
   "editor.wordWrap": "on",

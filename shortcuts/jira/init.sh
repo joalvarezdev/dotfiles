@@ -12,6 +12,10 @@ jira::supp() {
     return 1
   fi
 
+  local cmd=(
+    "jira" "issue" "create"
+  )
+
   while [[ $# -gt 0 ]]; do
     case $1 in
     -a | --assignee)
@@ -68,26 +72,25 @@ jira::supp() {
       return 1
       ;;
     esac
+
+    if [[ -n "$label" ]]; then
+      cmd+=("-l" "$label")
+    fi
+
+    if [[ -n "$component" ]]; then
+      cmd+=("-C" "$component")
+    fi
+
+    if [[ -n "$parent" ]]; then
+      cmd+=("-P" "$parent")
+    fi
+
+    cmd+=("--custom" "story-point-estimate=$story_points")
+    cmd+=("--custom" "story-points-desarrollo=$story_points_dev")
+
+    cmd+=("-a" $assignee)
+
   done
-
-  local cmd=(
-    "jira" "issue" "create"
-    "-a" $assignee
-    "--custom" "story-point-estimate=$story_points"
-    "--custom" "story-points-desarrollo=$story_points_dev"
-  )
-
-  if [[ -n "$label" ]]; then
-    cmd+=("-l" "$label")
-  fi
-
-  if [[ -n "$component" ]]; then
-    cmd+=("-C" "$component")
-  fi
-
-  if [[ -n "$parent" ]]; then
-    cmd+=("-P" "$parent")
-  fi
 
   eval $cmd
 }

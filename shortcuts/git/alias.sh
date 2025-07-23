@@ -1,13 +1,15 @@
 #!/bin/bash
 
 alias gp="git push"
-alias gpf="git push --force origin \"$(git branch --show-current)\""
-alias gpsup="git push --set-upstream origin \"$(git branch --show-current)\""
+alias gpf="git push --force origin $(git_current_branch)"
+alias gpsup="git push --set-upstream origin $(git_current_branch)"
 alias gcmsg="git commit -m"
 alias gcaa="git commit --amend"
+
 alias gsts="git stash push -m"
 alias gstsu="git stash push -u -m"
 alias gstl="git stash list"
+alias gstp="git stash pop"
 
 alias gwip='git add -A; git rm $(git ls-files --deleted) 2> /dev/null; git commit --no-verify --no-gpg-sign -m "🚧 --wip-- [skip ci]"'
 # alias gunwip='git log -n 1 | grep -q -c "\-\-wip\-\-" && git reset HEAD~1'
