@@ -1,8 +1,8 @@
 #!/bin/bash
 
 alias gp="git push"
-alias gpf="git push --force origin $(git_current_branch)"
-alias gpsup="git push --set-upstream origin $(git_current_branch)"
+alias gpf='git push --force origin $(git_current_branch)'
+alias gpsup='git push --set-upstream origin $(git_current_branch)'
 alias gcmsg="git commit -m"
 alias gcaa="git commit --amend"
 

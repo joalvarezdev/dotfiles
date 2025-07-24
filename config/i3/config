@@ -27,6 +27,8 @@ exec sh $HOME/dotfiles/config/monitor/config.sh
 
 # WORKSPACES
 
+bindsym $mod+Shift+d workspace show
+
 bindsym $mod+y workspace $ws1
 bindsym $mod+u workspace $ws2
 bindsym $mod+i workspace $ws3
