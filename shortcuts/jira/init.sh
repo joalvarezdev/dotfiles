@@ -1,4 +1,4 @@
-jira::supp() {
+jira::issue() {
   local assignee="joalvarez@infosis.tech"
   local label=""
   local component=""
