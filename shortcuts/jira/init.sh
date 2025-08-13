@@ -88,9 +88,9 @@ jira::issue() {
     cmd+=("--custom" "story-point-estimate=$story_points")
     cmd+=("--custom" "story-points-desarrollo=$story_points_dev")
 
-    cmd+=("-a" $assignee)
-
   done
+
+  cmd+=("-a" $assignee)
 
   eval $cmd
 }

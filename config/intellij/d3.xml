@@ -109,6 +109,7 @@
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
     <keyboard-shortcut first-keystroke="alt j" />
+    <keyboard-shortcut first-keystroke="ctrl j" />
   </action>
   <action id="EditorDuplicate" />
   <action id="EditorLeft">
@@ -122,6 +123,7 @@
   <action id="EditorUp">
     <keyboard-shortcut first-keystroke="up" />
     <keyboard-shortcut first-keystroke="alt k" />
+    <keyboard-shortcut first-keystroke="ctrl k" />
   </action>
   <action id="EmmetPreviousEditPoint" />
   <action id="ExportToTextFile" />
