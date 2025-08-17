@@ -2,9 +2,9 @@
 
 set -e
 
-# if ! command -v tmux &>/dev/null; then
-# exit 0
-# fi
+if ! command -v tmux &>/dev/null; then
+  exit 0
+fi
 
 TPM_DIR="$HOME/.tmux/plugins/tpm"
 if [ ! -d "$TPM_DIR" ]; then
