@@ -12,7 +12,7 @@ fi
 yay -S --needed --noconfirm \
   discord \
   visual-studio-code-bin \
-  intellij-idea-community-edition \
+  jetbrains-toolbox \
   google-chrome \
   brave-bin \
   bun-bin \
