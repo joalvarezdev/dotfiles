@@ -10,9 +10,14 @@ if [ -f "$ROFI_THEMES/rounded-red-dark.rasi" ]; then
   exit 0
 fi
 
+if [ -d "$ROFI_TMP" ]; then
+  echo "Limpiando directorio temporal existente..."
+  rm -rf "$ROFI_TMP"
+fi
+
 git clone https://github.com/lr-tech/rofi-themes-collection.git /tmp/rofi
 
-sudo cp -r "$ROFI_TMP/themes/*" /usr/share/rofi/themes
+sudo cp -r "$ROFI_TMP/themes"/* "$ROFI_THEMES/"
 
 sudo rm -rf $ROFI_TMP
 
