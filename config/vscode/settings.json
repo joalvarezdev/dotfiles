@@ -243,5 +243,5 @@
     }
   ],
   "liveServer.settings.donotShowInfoMsg": true,
-  "workbench.iconTheme": "file-icons"
+  "workbench.iconTheme": "icons"
 }

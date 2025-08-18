@@ -31,4 +31,7 @@ sudo pacman -S --needed --noconfirm \
   pre-commit \
   shellcheck \
   ansible \
-  feh
+  feh \
+  noto-fonts \
+  noto-fonts-emoji \
+  noto-fonts-cjk

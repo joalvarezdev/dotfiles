@@ -39,3 +39,4 @@ export SDKMAN_DIR="$HOME/.sdkman"
 
 source $HOME/dotfiles/config/zsh/zsh-generals.sh
 
+export KUBECONFIG=~/.kube/config:~/.kube/infosis-testing.yaml

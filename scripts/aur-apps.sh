@@ -20,6 +20,7 @@ yay -S --needed --noconfirm \
   github-cli \
   kconf \
   bitwarden-cli \
+  bitwarden \
   flameshot \
   coursier \
   gitleaks \
