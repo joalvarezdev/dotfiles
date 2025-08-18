@@ -34,4 +34,5 @@ sudo pacman -S --needed --noconfirm \
   feh \
   noto-fonts \
   noto-fonts-emoji \
-  noto-fonts-cjk
+  noto-fonts-cjk \
+  python-pre-commit
