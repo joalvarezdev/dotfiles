@@ -1,7 +1,8 @@
 #!/bin/bash
 
 CONNECTION="infosis"
-PASSWORD="r(6bjuysz:I\\"
+#PASSWORD="r(6bjuysz:I\\"
+PASSWORD='r(6bjuysz:I\'
 
 if nmcli connection show --active | grep -q "^$CONNECTION"; then
   nmcli connection down "$CONNECTION"

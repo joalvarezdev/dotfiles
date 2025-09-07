@@ -16,6 +16,9 @@ alias gwip='git add -A; git rm $(git ls-files --deleted) 2> /dev/null; git commi
 alias gunwip='git log -n1 | grep -q "\-\-wip\-\-" && git reset HEAD~1'
 alias gsts='git stash -- $(git diff --staged --name-only)'
 
+alias glog='git log --oneline | head -n 15'
+alias gll='git pull'
+
 gmove() {
   git stash -- $(git diff --staged --name-only) &&
     gwip

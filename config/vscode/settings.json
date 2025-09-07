@@ -243,5 +243,6 @@
     }
   ],
   "liveServer.settings.donotShowInfoMsg": true,
-  "workbench.iconTheme": "icons"
+  "workbench.iconTheme": "icons",
+  "workbench.sideBar.location": "right"
 }

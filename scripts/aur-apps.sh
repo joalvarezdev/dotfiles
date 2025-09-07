@@ -24,4 +24,5 @@ yay -S --needed --noconfirm \
   flameshot \
   coursier \
   gitleaks \
-  hadolint-bin
+  hadolint-bin \
+  kind-bin
