@@ -19,6 +19,20 @@ get_session() {
   export BW_SESSION
 }
 
+load_env() {
+  TMP_FILE="/tmp/$1"
+  if [ -f "$TMP_FILE" ]; then
+    source "$TMP_FILE"
+  else
+    [ -z "$1" ] && exit 1
+    get_session
+    notes=$(bw get item "$1" | jq -r '.notes // empty')
+    [ -z "$notes" ] && exit 1
+
+    echo "$notes" | sed 's/^/export /' >"$TMP_FILE" && source "$TMP_FILE"
+  fi
+}
+
 load_vpn_pass() {
   TMP_FILE="/tmp/$1"
 
