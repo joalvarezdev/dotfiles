@@ -12,3 +12,11 @@ alias dki="dk images"
 alias dkrmi="dk rmi"
 
 alias dkbd="dk build -t"
+
+dkcU() {
+  dk compose -f $1 up -d
+}
+
+dkcD() {
+  dk compose -f $1 down
+}
