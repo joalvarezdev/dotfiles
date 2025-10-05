@@ -5,3 +5,4 @@ alias chore::min="xclip -select clipboard < $DOTFILES/templates/work/chore_min.m
 alias bug="xclip -select clipboard < $DOTFILES/templates/work/bug.md"
 alias meet="xclip -select clipboard < $DOTFILES/templates/work/meet.md"
 alias spike="xclip -select clipboard < $DOTFILES/templates/work/spike.md"
+alias hdr="xclip -select clipboard < $DOTFILES/templates/work/hdr.md"
