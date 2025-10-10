@@ -1,5 +1,7 @@
 #!/bin/bash
 
+SHORTCUTS_PATH=$(dirname "${0}")
+
 source "$DOTFILES/shortcuts/zsh/init.sh"
 source "$DOTFILES/shortcuts/tmux/init.sh"
 source "$DOTFILES/shortcuts/nvim/init.sh"

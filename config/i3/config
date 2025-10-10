@@ -3,7 +3,9 @@ set $mod Mod4
 font pango:monospace 0
 
 # start a terminal
-bindsym $mod+Return exec alacritty
+bindsym $mod+Return exec alacritty -e bash -c "$HOME/dotfiles/shortcuts/tmux/tmux-attach.sh"
+
+bindsym $mod+Shift+Return exec alacritty -e bash -c "$HOME/dotfiles/shortcuts/tmux/tmux-new.sh"
 # reload configuration
 bindsym $mod+Shift+r reload
 # restart i3 
