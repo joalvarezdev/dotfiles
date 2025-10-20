@@ -1,5 +1,9 @@
 [user]
   name = joalvarez
+[includeIf "gitdir:~/ghq/github.com/joalvarezdev/**"]
+  path = ~/.gitconfig-github
+[includeIf "gitdir:~/ghq/gitlab.infosisglobal.com/**"]
+  path = ~/.gitconfig-gitlab-infosis
 [pull]
   rebase = true
 [core]
