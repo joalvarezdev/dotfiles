@@ -164,7 +164,7 @@
   },
   "explorer.confirmDelete": false,
   //
-  "errorLens.fontFamily": "Maple Mono",
+  "errorLens.fontFamily": "Fira Code",
   "errorLens.fontStyleItalic": true,
   "errorLens.fontWeight": "700",
   "errorLens.fontSize": "12",
@@ -244,5 +244,15 @@
   ],
   "liveServer.settings.donotShowInfoMsg": true,
   "workbench.iconTheme": "icons",
-  "workbench.sideBar.location": "right"
+  "workbench.sideBar.location": "right",
+  "errorLens.alignMessage": {
+    "start": 0,
+    "end": 0,
+    "minimumMargin": 4,
+    "padding": [
+      0,
+      0
+    ],
+    "useFixedPosition": true
+  }
 }

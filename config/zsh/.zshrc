@@ -42,3 +42,7 @@ source $HOME/dotfiles/config/zsh/zsh-generals.sh
 export KUBECONFIG=~/.kube/config:~/.kube/infosis-testing.yaml
 
 export PATH=$PATH:$HOME/go/bin
+
+export PATH="$HOME/.cargo.bin:$PATH"
+
+export PATH="$HOME/.local/bin:$PATH"
