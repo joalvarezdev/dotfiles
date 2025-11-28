@@ -1,4 +1,4 @@
 #!/bin/bash
 
-alias pc::ins="pre-commit install"
-alias pc::run="pre-commit run --all-files"
+alias pre::ins="pre-commit install"
+alias pre::run="pre-commit run --all-files"

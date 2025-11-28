@@ -440,5 +440,9 @@
   {
     "key": "alt+q",
     "command": "workbench.action.toggleAuxiliaryBar"
+  },
+  {
+    "key": "ctrl+alt+g",
+    "command": "git.blame.toggleEditorDecoration"
   }
 ]

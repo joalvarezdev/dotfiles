@@ -25,4 +25,5 @@ yay -S --needed --noconfirm \
   coursier \
   gitleaks \
   hadolint-bin \
-  kind-bin
+  kind-bin \
+  fnm
