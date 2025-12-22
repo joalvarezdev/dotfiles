@@ -46,3 +46,9 @@ export PATH=$PATH:$HOME/go/bin
 export PATH="$HOME/.cargo.bin:$PATH"
 
 export PATH="$HOME/.local/bin:$PATH"
+
+# opencode
+export PATH=/home/joalvarez/.opencode/bin:$PATH
+
+# Cargo
+export PATH="$HOME/.cargo/bin:$PATH"

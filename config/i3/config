@@ -97,6 +97,7 @@ bindsym $mod+Shift+f floating toggle
 ### POWER OFF REBOOT
 bindsym $mod+0 exec --no-startup-id systemctl poweroff
 bindsym $mod+9 exec --no-startup-id systemctl reboot
+bindsym $mod+8 exec i3lock
 
 ### APPS
 bindsym $mod+Shift+s exec flameshot gui

@@ -36,4 +36,5 @@ sudo pacman -S --needed --noconfirm \
   noto-fonts-emoji \
   noto-fonts-cjk \
   python-pre-commit \
-  python-loguru
+  python-loguru \
+  graphviz
