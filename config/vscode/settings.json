@@ -258,5 +258,5 @@
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-  "git.blame.editorDecoration.enabled": true
+  "git.blame.editorDecoration.enabled": false
 }
