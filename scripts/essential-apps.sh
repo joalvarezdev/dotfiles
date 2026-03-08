@@ -37,4 +37,5 @@ sudo pacman -S --needed --noconfirm \
   noto-fonts-cjk \
   python-pre-commit \
   python-loguru \
-  graphviz
+  graphviz \
+  ffmpeg

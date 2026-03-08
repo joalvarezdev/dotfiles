@@ -17,6 +17,9 @@
     <keyboard-shortcut first-keystroke="alt 9" />
   </action>
   <action id="ActivateFindToolWindow" />
+  <action id="ActivateGitHubCopilotChatToolWindow">
+    <keyboard-shortcut first-keystroke="alt i" />
+  </action>
   <action id="ActivateGitHubMarkdownEmojisToolWindow">
     <keyboard-shortcut first-keystroke="alt 5" />
   </action>
@@ -41,8 +44,7 @@
     <keyboard-shortcut first-keystroke="alt 2" />
   </action>
   <action id="ActivateTerminalToolWindow">
-    <keyboard-shortcut first-keystroke="shift alt t" />
-    <keyboard-shortcut first-keystroke="ctrl alt 0" />
+    <keyboard-shortcut first-keystroke="ctrl slash" />
   </action>
   <action id="ActivateVersionControlToolWindow" />
   <action id="Android.Designer.AutoArrange" />
@@ -78,7 +80,11 @@
   <action id="CloseProject">
     <keyboard-shortcut first-keystroke="alt c" />
   </action>
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="ctrl divide" />
+  </action>
   <action id="CompareTwoFiles" />
+  <action id="Console.History.Browse" />
   <action id="ConsoleView.ShowAsJsonAction">
     <keyboard-shortcut first-keystroke="shift s" />
   </action>
@@ -134,6 +140,7 @@
   <action id="FileChooser.Delete">
     <keyboard-shortcut first-keystroke="delete" />
   </action>
+  <action id="FileChooser.GoToRoot" />
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.TogglePathBar" />
   <action id="FindNext">
@@ -155,9 +162,7 @@
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="control button1" />
   </action>
-  <action id="GotoImplementation">
-    <keyboard-shortcut first-keystroke="alt i" />
-  </action>
+  <action id="GotoImplementation" />
   <action id="GotoLine" />
   <action id="GotoRow" />
   <action id="GotoTest" />
@@ -178,6 +183,9 @@
   <action id="Hotswap">
     <keyboard-shortcut first-keystroke="shift alt h" />
   </action>
+  <action id="Images.Editor.ActualSize">
+    <keyboard-shortcut first-keystroke="ctrl divide" />
+  </action>
   <action id="Images.Thumbnails.Hide" />
   <action id="InsertLiveTemplate" />
   <action id="Kotlin.RunScratch" />
@@ -195,6 +203,9 @@
   </action>
   <action id="OpenFile">
     <keyboard-shortcut first-keystroke="alt o" />
+  </action>
+  <action id="OpenRouter.ActionGroup">
+    <keyboard-shortcut first-keystroke="alt 5" />
   </action>
   <action id="QuickImplementations" />
   <action id="ReformatCode">
@@ -219,6 +230,7 @@
   </action>
   <action id="Terminal.ClearBuffer" />
   <action id="Terminal.CloseTab" />
+  <action id="ToggleFindInSelection" />
   <action id="ToggleFullScreen">
     <keyboard-shortcut first-keystroke="alt e" />
   </action>
@@ -231,6 +243,7 @@
   </action>
   <action id="TypeHierarchy" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
+  <action id="UpdateRunningApplication" />
   <action id="UsageGrouping.DirectoryStructure" />
   <action id="UsageView.Exclude">
     <keyboard-shortcut first-keystroke="delete" />
@@ -254,7 +267,16 @@
   <action id="XmlGenerateToolsGroup">
     <keyboard-shortcut first-keystroke="alt x" />
   </action>
+  <action id="android.deploy.ApplyChanges">
+    <keyboard-shortcut first-keystroke="ctrl f10" />
+  </action>
+  <action id="android.deploy.CodeSwap">
+    <keyboard-shortcut first-keystroke="ctrl alt f10" />
+  </action>
   <action id="copilot.disposeInlays" />
+  <action id="copilot.keymap">
+    <keyboard-shortcut first-keystroke="ctrl alt e" />
+  </action>
   <action id="copilot.requestCompletions">
     <keyboard-shortcut first-keystroke="alt back_slash" />
     <keyboard-shortcut first-keystroke="alt semicolon" />

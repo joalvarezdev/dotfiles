@@ -93,7 +93,6 @@ noremap <leader>op :action OpenFile<CR>
     """ REINICIAR IDE
 noremap <leader>ri :action RestartIde<CR>
     """ Abrir terminal
-noremap <leader>at :action ActivateTerminalToolWindow<CR>
 
 """" BUSCAR USOS
     """ MUESTRA TODOS LOS USOS METODO, CLASE, VARIABLE
@@ -136,6 +135,3 @@ noremap <C-j> :action PreviousTab<CR>
 noremap <leader>/ :action CommentByLineComment<CR>
 xnoremap <leader>/ :action CommentByBlockComment<CR>
 
-noremap <C-/> :action ActivateTerminalToolWindow<CR>
-
-" noremap <C-A-c> :action EditorAddOrRemoveCaret<CR>

@@ -17,3 +17,5 @@ alias tkn::app="$DOTFILES/shortcuts/infosis/token_application.sh"
 alias tkn::usr="$DOTFILES/shortcuts/infosis/token_user.sh"
 
 alias java::api::infs="cookiecutter https://gitlab.infosisglobal.com/starter-kit/cookiecutter-api-framework.git"
+
+alias inf::umount="sudo umount /mnt/reportes /mnt/DataZWeb /mnt/ZeusERP"

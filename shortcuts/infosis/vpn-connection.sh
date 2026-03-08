@@ -3,7 +3,7 @@
 source $HOME/dotfiles/shortcuts/bw/functions.sh
 
 CONNECTION="infosis-vpn"
-PASSWORD=$(load_vpn_pass "1dc3d5bf-cfec-4e32-922d-ad0760fc5238")
+PASSWORD=$(load_vpn_pass "a0b5d6c5-05af-4f0d-b84d-b40701716861")
 
 if nmcli connection show --active | grep -q "^$CONNECTION"; then
   nmcli connection down "$CONNECTION"

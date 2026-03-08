@@ -10,7 +10,11 @@
     "comments": "#FFF"
   },
   "workbench.colorCustomizations": {
-    "editorCursor.foreground": "#3a9dc7",
+    "editorCursor.foreground": "#FF4FA3",
+    "editor.lineHighlightBackground": "#2A1020",
+    "editor.selectionBackground": "#FF4FA355",
+    "list.focusOutline": "#FF4FA3",
+    "list.focusAndSelectionOutline": "#FF4FA3",
     "[Vira*]": {
       "toolbar.activeBackground": "#80CBC426",
       "button.background": "#80CBC4",
@@ -30,7 +34,6 @@
       "list.inactiveSelectionForeground": "#80CBC4",
       "list.highlightForeground": "#80CBC4",
       "sash.hoverBorder": "#80CBC480",
-      "list.activeSelectionIconForeground": "#80CBC4",
       "scrollbarSlider.activeBackground": "#80CBC480",
       "editorSuggestWidget.highlightForeground": "#80CBC4",
       "textLink.foreground": "#80CBC4",
@@ -258,5 +261,6 @@
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-  "git.blame.editorDecoration.enabled": false
+  "git.blame.editorDecoration.enabled": false,
+  "excalidraw.theme": "light"
 }

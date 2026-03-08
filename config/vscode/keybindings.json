@@ -1,6 +1,4 @@
-// Place your key bindings in this file to override the defaults
 [
-  // CTRL
   {
     "key": "ctrl+j",
     "command": "workbench.action.previousEditor"
@@ -17,7 +15,6 @@
     "key": "ctrl+s",
     "command": "mysql.database.add"
   },
-  // ALT
   {
     "key": "alt+e",
     "command": "workbench.action.closeActiveEditor"
@@ -57,21 +54,6 @@
     "command": "selectPrevSuggestion",
     "when": "suggestWidgetVisible"
   },
-  // Explorer and Editor
-  {
-    "key": "alt+1",
-    "command": "workbench.files.action.focusFilesExplorer"
-  },
-  {
-    "key": "alt+1",
-    "command": "workbench.action.focusActiveEditorGroup",
-    "when": "filesExplorerFocus"
-  },
-  {
-    "key": "ctrl+alt+1",
-    "command": "workbench.action.focusActiveEditorGroup"
-  },
-  // Terminal and Editor
   {
     "key": "alt+0",
     "command": "workbench.action.focusActiveEditorGroup",
@@ -82,7 +64,6 @@
     "command": "workbench.action.terminal.focus",
     "when": "!terminalFocus"
   },
-  //
   {
     "key": "alt+2",
     "command": "workbench.view.extension.github-cweijan-mysql"
@@ -105,7 +86,6 @@
     "command": "workbench.action.quickOpenNavigatePrevious",
     "when": "inQuickOpen"
   },
-  // CTRL + ALT
   {
     "key": "ctrl+alt+s",
     "command": "workbench.action.openSettingsJson"
@@ -126,7 +106,6 @@
     "key": "ctrl+alt+o",
     "command": "workbench.action.files.openFolder"
   },
-  // Space
   {
     "key": "shift+c",
     "commands": "rest-client.copy-response-body"
@@ -274,7 +253,6 @@
     "command": "-workbench.action.navigateForward",
     "when": "canNavigateForward"
   },
-  /// MOVE LINES
   {
     "key": "shift+alt+j",
     "command": "editor.action.moveLinesDownAction",
@@ -310,7 +288,7 @@
   },
   {
     "key": "ctrl+s",
-    "command": "workbench.action.files.save",
+    "command": "workbench.action.files.save"
   },
   {
     "key": "ctrl+alt+n",
@@ -329,10 +307,6 @@
     "key": "ctrl+d",
     "command": "-editor.action.addSelectionToNextFindMatch",
     "when": "editorFocus"
-  },
-  {
-    "key": "alt+m",
-    "command": "markdown-kanban.openKanban"
   },
   {
     "key": "alt+l",
@@ -434,15 +408,49 @@
     "when": "editorTextFocus && !editorReadonly"
   },
   {
+    "key": "ctrl+b",
+    "command": "-workbench.action.toggleSidebarVisibility"
+  },
+  {
     "key": "alt+1",
-    "command": "workbench.view.explorer"
+    "command": "workbench.action.closeSidebar",
+    "when": "sideBarVisible && filesExplorerFocus"
   },
   {
-    "key": "alt+q",
-    "command": "workbench.action.toggleAuxiliaryBar"
+    "key": "alt+1",
+    "command": "workbench.view.explorer",
+    "when": "!sideBarVisible || !filesExplorerFocus"
   },
   {
-    "key": "ctrl+alt+g",
-    "command": "git.blame.toggleEditorDecoration"
+    "key": "alt+s",
+    "command": "workbench.action.quickOpen"
+  },
+  {
+    "key": "alt+j",
+    "command": "workbench.action.quickOpenSelectNext",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "alt+k",
+    "command": "workbench.action.quickOpenSelectPrevious",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "alt+m",
+    "command": "markdown.showPreviewToSide"
+  },
+  {
+    "key": "ctrl+/",
+    "command": "workbench.action.terminal.toggleTerminal",
+    "when": "terminal.active"
+  },
+  {
+    "key": "ctrl+`",
+    "command": "-workbench.action.terminal.toggleTerminal",
+    "when": "terminal.active"
+  },
+  {
+    "key": "alt+m",
+    "command": "vscode-mermaid-extension.showDiagramView"
   }
 ]

@@ -12,3 +12,10 @@ bold_italic.family = "UbuntuMono Nerd Font"
 
 normal.style = 'Bold'
 size = 12
+
+[keyboard]
+bindings = [
+  # new line
+  { key = "Return", mods = "Shift", chars = "\u001b\r" },
+  { key = "L", mods = "Control", chars = "\u001b" },
+]

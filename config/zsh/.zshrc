@@ -41,8 +41,6 @@ source $HOME/dotfiles/config/zsh/zsh-generals.sh
 
 export KUBECONFIG=~/.kube/config:~/.kube/infosis-testing.yaml
 
-export PATH=$PATH:$HOME/go/bin
-
 export PATH="$HOME/.cargo.bin:$PATH"
 
 export PATH="$HOME/.local/bin:$PATH"
@@ -52,3 +50,8 @@ export PATH=/home/joalvarez/.opencode/bin:$PATH
 
 # Cargo
 export PATH="$HOME/.cargo/bin:$PATH"
+# GO
+export PATH="$HOME/go/bin:$PATH"
+
+# voice2cli
+alias v2c="python /home/joalvarez/ghq/github.com/joalvarezdev/voice2cli/voice2cli.py"
