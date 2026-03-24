@@ -2,7 +2,7 @@
 padding.x = 6
 padding.y = 6
 
-opacity = 0.1
+opacity = 0.01
 
 [font]
 normal.family = "UbuntuMono Nerd Font"
@@ -11,7 +11,7 @@ italic.family = "UbuntuMono Nerd Font"
 bold_italic.family = "UbuntuMono Nerd Font"
 
 normal.style = 'Bold'
-size = 12
+size = 14
 
 [keyboard]
 bindings = [

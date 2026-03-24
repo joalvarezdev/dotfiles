@@ -4,8 +4,10 @@ font pango:monospace 0
 
 # start a terminal
 bindsym $mod+Return exec alacritty -e bash -c "$HOME/dotfiles/shortcuts/tmux/tmux-attach.sh"
-
+# bindsym $mod+Return exec ghostty -e bash -c "$HOME/dotfiles/shortcuts/tmux/tmux-attach.sh"
+# bindsym $mod+Shift+Return exec ghostty -e bash -c "$HOME/dotfiles/shortcuts/tmux/tmux-new.sh"
 bindsym $mod+Shift+Return exec alacritty -e bash -c "$HOME/dotfiles/shortcuts/tmux/tmux-new.sh"
+
 # reload configuration
 bindsym $mod+Shift+r reload
 # restart i3 
@@ -25,9 +27,11 @@ client.background       #2B2C2B
 
 exec_always setxkbmap -layout us -variant altgr-intl
 
-exec sh $HOME/dotfiles/config/monitor/config.sh
+#exec sh $HOME/dotfiles/config/monitor/config.sh
+exec --no-startup-id sh "$HOME/dotfiles/config/monitor/config.sh"
 
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh --forest
+exec --no-startup-id clipman
 
 # WORKSPACES
 set $ws1 "1"
@@ -104,5 +108,4 @@ bindsym $mod+Shift+s exec flameshot gui
 bindsym $mod+c exec $HOME/dotfiles/shortcuts/infosis/vpn-connection.sh
 
 
-# voice2cli
-bindsym $mod+Shift+v exec --no-startup-id i3-sensible-terminal -e $HOME/ghq/github.com/joalvarezdev/voice2cli/.venv/bin/python $HOME/ghq/github.com/joalvarezdev/voice2cli/voice2cli.py
+bindsym $mod+Shift+v exec --no-startup-id alacritty -e zsh -lc '/home/joalvarez/ghq/github.com/joalvarezdev/voice2cli/.venv/bin/python /home/joalvarez/ghq/github.com/joalvarezdev/voice2cli/voice2cli.py'

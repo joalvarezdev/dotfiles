@@ -436,10 +436,6 @@
     "when": "inQuickOpen"
   },
   {
-    "key": "alt+m",
-    "command": "markdown.showPreviewToSide"
-  },
-  {
     "key": "ctrl+/",
     "command": "workbench.action.terminal.toggleTerminal",
     "when": "terminal.active"
@@ -451,6 +447,33 @@
   },
   {
     "key": "alt+m",
-    "command": "vscode-mermaid-extension.showDiagramView"
+    "command": "markdown.showPreviewToSide",
+    "when": "resourceExtname == '.md'"
+  },
+  {
+    "key": "alt+m",
+    "command": "runCommands",
+    "args": {
+      "commands": [
+        "vscode-mermaid-extension.showDiagramView",
+        "workbench.action.moveEditorToRightGroup"
+      ]
+    },
+    "when": "resourceExtname == '.mmd'"
+  },
+  {
+    "key": "ctrl+shift+v",
+    "command": "-markdown-preview-enhanced.openPreview",
+    "when": "editorLangId == 'markdown'"
+  },
+  {
+    "key": "ctrl+shift+v",
+    "command": "-markdown.showPreview",
+    "when": "!notebookEditorFocused && editorLangId =~ /^(markdown|prompt|instructions|chatagent)$/"
   }
+  //  {
+  //   "key": "alt+m",
+  //  "command": "vscode-mermaid-extension.showDiagramView",
+  // "when": "resourceExtname == '.mmd'"
+  //}
 ]
